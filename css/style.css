@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    max-width: 600px;
+    margin: 1em auto;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    align-items: center;
+    background-color:brown;
+    color: white;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.line-1 {
+    height: 1px;
+    background: black;
+}
+.header-img {
+    grid-column: 1;
+}
+
+.head-box h1 {
+    grid-column: 2;
+}
+
+footer {
+    background-color: brown;
+    color: yellow;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
