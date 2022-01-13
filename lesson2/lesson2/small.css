@@ -1,0 +1,68 @@
+body {
+	font-size: 16px;
+	font-family: "Josefin Sans", Ubuntu, sans-serif;
+}
+
+header h1, header h2 {
+    font-family: 'EB Garamond';
+    padding: 10px;
+}
+
+header h1 {
+    margin-bottom: -30px;
+}
+
+header {
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: #536878;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
+main section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+
+.colimage {
+	box-shadow: 0 0 30px #333;
+}
+
+.rule-of-thirds h3, .white-space h3, .contrast h3 {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.rule-of-thirds, .white-space, .contrast {
+    border-radius: 10px;
+}
+
+footer {
+    background-color: brown;
+    color: yellow;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
