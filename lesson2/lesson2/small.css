@@ -1,5 +1,5 @@
 body {
-	font-size: 16px;
+	font-size: 20px;
 	font-family: "Josefin Sans", Ubuntu, sans-serif;
 }
 
@@ -16,6 +16,10 @@ header {
     text-align: center;
     background-color: brown;
     color: white;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* phone or baseline views **************************/
