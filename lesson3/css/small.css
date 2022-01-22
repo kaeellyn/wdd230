@@ -52,7 +52,7 @@ nav ul {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     overflow: hidden;
     align-items: stretch;
-
+    padding-inline-start: 0;
 }
 
 nav ul li {
@@ -71,7 +71,9 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: #FFFFFF;
+    background-color: whitesmoke;
+    color: #960200;
+    padding: 5px;
 }
 
 .colors th {
@@ -116,4 +118,5 @@ footer {
     color: #FFFFFF;
     padding: 10px;
     text-align: center;
+    margin-top: 10px;
 }
