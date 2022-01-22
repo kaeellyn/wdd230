@@ -4,10 +4,6 @@ body {
     margin: 0;
 }
 
-section {
-    display: block;
-}
-
 header h1, header h2 {
     font-family: 'EB Garamond';
     padding: 10px;
@@ -31,9 +27,9 @@ img {
 main {
 	max-width: 767px;
 	margin: 0 auto;
-	display: grid;
+	display: block;
 	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+    font-size: 0.8rem;
 }
 
 main section h2 {
@@ -45,10 +41,10 @@ main section h2 {
 	border: 1px solid #bbb;
 	padding: 0 1rem;
 	background-color: #eee;
+    display: block;
 }
 
 main section:nth-child(2) {
-	display: none;
 	margin: 0.5rem;
 }
 
@@ -65,10 +61,6 @@ main section:nth-child(2) {
 
 .rule-of-thirds, .white-space, .contrast {
     border-radius: 10px;
-}
-
-section {
-    display: block;
 }
 
 footer {
