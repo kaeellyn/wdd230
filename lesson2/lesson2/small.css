@@ -65,6 +65,9 @@ main section:nth-child(2) {
 
 .rule-of-thirds, .white-space, .contrast {
     border-radius: 10px;
+}
+
+section {
     display: block;
 }
 
