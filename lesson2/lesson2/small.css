@@ -1,6 +1,11 @@
 body {
 	font-size: 20px;
 	font-family: "Josefin Sans", Ubuntu, sans-serif;
+    margin: 0;
+}
+
+section {
+    display: block;
 }
 
 header h1, header h2 {
@@ -19,7 +24,7 @@ header {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 /* phone or baseline views **************************/
@@ -35,7 +40,7 @@ main section h2 {
 	color: #536878;
 }
 
-main section {
+ main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
@@ -49,7 +54,7 @@ main section:nth-child(2) {
 
 .colimage {
 	box-shadow: 0 0 30px #333;
-}
+} 
 
 .rule-of-thirds h3, .white-space h3, .contrast h3 {
     background-color: brown;
@@ -60,6 +65,7 @@ main section:nth-child(2) {
 
 .rule-of-thirds, .white-space, .contrast {
     border-radius: 10px;
+    display: block;
 }
 
 footer {
