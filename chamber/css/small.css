@@ -1,0 +1,190 @@
+/* Small/Phone View ***************/
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+p {
+    font-family: 'Questrial', serif;
+}
+
+header {
+    background-color: #011936;
+    color: #FFD046;
+    font-family: 'Playfair Display SC', serif;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px solid #bbb;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+
+.headings h1 {
+    font-size: 1.3rem;
+}
+
+.sub-head {
+    letter-spacing: 1pt;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: -15px;
+}
+
+#currentDate {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.social {
+    margin-left: 2.5rem;
+}
+
+.social svg { 
+    width: 25px;
+    height: auto;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #960200;
+    color: #FFD046;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #FFD046;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "🍔 ";
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+/* MAIN SECTION */
+
+.join {
+    display: none;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+main div {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: #eee;
+    display: block;
+}
+
+.spotlight {
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+}
+
+.spotlight1 {
+    border: 1px solid #bbb;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.spotlight2 {
+    border: 1px solid #bbb;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    display: block;
+    background-color: #011936;
+    color: #FFD046;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-top: 1px solid #bbb;
+    text-align: center;
+    padding: 1em;
+    line-height: 5px;
+}
+
+.contact-info a {
+    color: #FFD046;
+    text-decoration: none;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.footer-top img {
+    width: 120px;
+    height: auto;
+    margin-bottom: -40px;
+    margin-top: -30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #960200;
+}
