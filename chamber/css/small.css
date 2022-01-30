@@ -92,7 +92,7 @@ nav {
 }
 
 .navigation a.ham::before {
-	content: "🍔 ";
+	content: "☰ ";
 }
 
 .navigation a:hover {
