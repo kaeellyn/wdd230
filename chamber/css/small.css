@@ -1,6 +1,7 @@
 /* Small/Phone View ***************/
 h1, h2, h3, h4 {
-    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Playfair Display SC', serif; */
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -10,7 +11,8 @@ p {
 header {
     background-color: #011936;
     color: #FFD046;
-    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Playfair Display SC', serif; */
+    font-family: 'Poppins', sans-serif;
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -95,10 +97,12 @@ nav {
 	content: "☰ ";
 }
 
-.navigation a:hover {
-	color: white;
-	background-color: black;
+nav a:hover {
+    background-color: whitesmoke;
+    color: #960200;
+    padding: 5px;
 }
+
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
@@ -113,10 +117,6 @@ nav {
 
 /* MAIN SECTION */
 
-.join {
-    display: none;
-}
-
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -127,27 +127,149 @@ main {
 
 main div {
     margin: 0.5rem;
-    border: 1px solid #bbb;
-    padding: 0 1rem;
-    background-color: #eee;
+    /* border: 1px solid #bbb; 
+    padding: 0 1rem; */
+    background-color: #960200;
     display: block;
 }
 
+.hero-div {
+    position: relative;
+    background: #011936;
+}
+
+.hero-div-bottom {
+    color: white;
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 3px;
+}
+
+.hero-div img{
+    max-width: 100%;
+    height: auto;
+}
+
+.welcome {
+    position: absolute;
+    background: rgba(107, 117, 248, 0.3);
+    /* background: linear-gradient(to right, #960200, #FFD046); */
+    top: 40px;
+    left: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.welcome h1 {
+    color: white;
+}
+
+.hero-join {
+    position: absolute;
+    background: rgba(255, 115, 0, 0.3);
+    /* background: linear-gradient(to right, #960200, #FFD046); */
+    top: 115px;
+    left: 140px;
+    padding: 5px;
+}
+
+.hero-join h2 {
+    color: white;
+}
+
+.event {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.event h1 {
+    background: linear-gradient(to right, #960200, #FFD046);
+}
+
+.weather {
+    color: white;
+    text-align: center;
+}
+
+.weather-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.weather h1 {
+    grid-column: 1/3;
+}
+
+.weather-top img {
+    grid-column: 1;
+    grid-row: 2;
+    width: 75%;
+    height: auto;
+    left: 5px;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+
+.weather-top h2 {
+    font-size: 3rem;
+    margin-top: -20px;
+}
+
+.weather-top h3 {
+    grid-column: 2;
+    margin-top: -50px;
+}
+
+.weather-bottom {
+    border-top: 1px dotted #FFD046;
+    padding: 5px;
+}
+
+.join {
+    display: none;
+}
+
+.news {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
 .spotlight {
-    border: 1px solid #bbb;
+    border: 1px solid #FFD046;
     padding: 0 1rem;
+    color: white;
+    text-align: center;
 }
 
 .spotlight1 {
-    border: 1px solid #bbb;
+    border: 1px solid #FFD046;
     border-collapse: separate;
     border-spacing: 10px;
+    padding: 10px;
+}
+
+.spotlight1 img {
+    width: 40%;
+    height: auto;
+}
+
+.spotlight1-contact, .spotlight2-contact {
+    border-top: 1px dotted #FFD046;
 }
 
 .spotlight2 {
-    border: 1px solid #bbb;
+    border: 1px solid #FFD046;
     border-collapse: separate;
     border-spacing: 10px;
+    padding: 10px;
+}
+
+.spotlight2 img {
+    width: 48%;
+    height: auto;
 }
 
 /* FOOTER SECTION */

@@ -23,7 +23,7 @@
         grid-template-rows: repeat(3, 1fr);
     }
 
-    .hero-cta {
+    .hero-div {
         grid-column: 2/3;
         grid-row: 1/3;
     }

@@ -1,3 +1,4 @@
+/* HEADER SECTION */
 body {
     background-color: white;
     max-width: 400px;
@@ -50,6 +51,13 @@ header, footer {
     text-align: center;
 }
 
+/* MAIN SECTION */
+
+.hero-div {
+    width: .5rem;
+    height: auto;
+}
+/* FOOTER SECTION */
 footer {
     background-color: brown;
     color: yellow;

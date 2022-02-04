@@ -39,19 +39,19 @@
         text-align: center;
     }
 
-    /* MAIN SECTION */
+    /* MAIN SECTION POSITION*/
 
     #content {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 
     #content > * {
         flex: 1 1 10em;
     }
 
-    .hero-cta {
+    .hero-div {
         grid-column: 1/6;
         grid-row: 1;
     }
@@ -92,6 +92,78 @@
     .spotlight2 {
         flex-grow: 1;
         grid-column: 3/6;
+    }
+
+    /* MAIN SECTION DESIGN */
+
+    .hero-div {
+        position: relative;
+        display: block;
+    }
+    
+    .hero-div-bottom {
+        font-size: 0.8rem;
+        padding: 30px 0; 
+    }
+
+    .welcome {
+        /* background: linear-gradient(to right, #960200, #FFD046); */
+        top: 40px;
+        left: 0px;
+        padding: 1px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .hero-join {
+        /* background: linear-gradient(to right, #960200, #FFD046); */
+        top: 300px;
+        left: 275px;
+        padding: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .event {
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .news h1 {
+        font-size: 2rem;
+    }
+
+    .news p {
+        font-size: 1rem;
+    }
+
+    .news {
+        padding: 175px 0;
+    }
+
+    .spotlight {
+        padding: 130px 0;
+        /* margin: 0; */
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    .join button {
+        font-family: 'Poppins', sans-serif;
+        background-color: #FFD046;
+        color: #960200;
+        font-size: 30px;
+        width: 50%;
+        height: 20%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .join {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
     }
 
     /* FOOTER SECTION */
