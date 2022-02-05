@@ -97,12 +97,15 @@ nav {
 	content: "☰ ";
 }
 
-nav a:hover {
+.navigation a:hover {
     background-color: whitesmoke;
     color: #960200;
     padding: 5px;
 }
 
+/* .toggle-btn {
+    padding: 1em;
+} */
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
@@ -153,7 +156,7 @@ main div {
 
 .hero-div img{
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .welcome {
@@ -168,6 +171,7 @@ main div {
 
 .welcome h1 {
     color: white;
+    padding: 5px;
 }
 
 .hero-join {
@@ -179,8 +183,10 @@ main div {
     padding: 5px;
 }
 
-.hero-join h2 {
+.hero-join button {
     color: white;
+    background: linear-gradient(to right, #960200, #FFD046);
+    padding: 5px;
 }
 
 .event {
@@ -258,7 +264,7 @@ main div {
 }
 
 .spotlight1 img {
-    width: 40%;
+    width: 39%;
     height: auto;
 }
 
@@ -274,8 +280,12 @@ main div {
 }
 
 .spotlight2 img {
-    width: 48%;
+    width: 40%;
     height: auto;
+}
+
+.spotlight3 {
+    display: none;
 }
 
 /* FOOTER SECTION */
