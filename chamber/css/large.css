@@ -26,8 +26,8 @@
     main {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        /* grid-template-rows: repeat(3, 1fr); */
-        grid-auto-rows: minmax(min-content, max-content);
+        grid-template-rows: repeat(3, auto);
+        /* grid-auto-rows: minmax(min-content, max-content); */
         margin: 0.5em auto;
     }
 
@@ -36,7 +36,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-column: 2/3;
-        grid-row: 1;
+        grid-row: 1/3;
     }
 
     /* .hero-div img { 
@@ -69,7 +69,8 @@
     
     .news {
         grid-column: 2/3;
-        grid-row: 3/4;
+        grid-row: 3;
+        padding: inherit;
     }
 
     .event {
@@ -83,23 +84,56 @@
         grid-row: 2/3;
     }
 
+    .weather {
+        color: white;
+        padding: .5em;
+    }
+    
+    .weather img {
+        float: left;
+        width: 50%;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+    
+    .weather-icon {
+        float: left;
+        grid-column: 1;
+        grid-row: 2/4;
+        margin-top: 30px;
+    }
+
+    .weather h1 {
+        text-align: center;
+    }
+    
+    .weather h2 {
+        text-align: right;
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+    
+    .weather h3 {
+        text-align: center;
+    }
+
     .join {
         grid-column: 1/2;
         grid-row: 3/4;
     }
 
     .join p {
-        font-size: 1.5rem;
-        vertical-align: top;
+        font-size: 1rem;
     }
 
     .join button {
+        font-size: 1rem;
         bottom: 80px;
     }
 
     .spotlight {
         grid-column: 3;
-        grid-row: 1/3;
+        grid-row: 1/4;
         flex-direction: column;
     }
 
@@ -147,6 +181,5 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        
     }
 }

@@ -66,6 +66,23 @@
         grid-row: 5;
     }
 
+    .weather img {
+        width: 15%;
+        margin-left: 250px;
+    }
+
+    .weather h1 {
+        font-size: 2.5rem;
+    }
+    .weather h2 {
+        margin-right: 200px;
+        padding: 10px;
+    }
+
+    .weather h3 {
+        text-align: left;
+    }
+
     .join {
         display: grid;
         grid-column: 1/6;
