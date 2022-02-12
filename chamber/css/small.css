@@ -178,7 +178,7 @@ main div {
     position: absolute;
     background: rgba(255, 115, 0, 0.3);
     /* background: linear-gradient(to right, #960200, #FFD046); */
-    top: 115px;
+    top: 145px;
     left: 140px;
     padding: 5px;
 }
@@ -201,13 +201,45 @@ main div {
 
 .weather {
     color: white;
+    padding: .5em;
+}
+
+.weather img {
+    float: left;
+    width: 30%;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.weather h1 {
+    text-align: center;
+}
+
+.weather h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.weather h3 {
+    text-align: center;
+    border-bottom: 1px solid #FFD046;
+    padding: 10px;
+    margin-top: -30px;
+}
+
+.weather p {
+    text-align: center;
+}
+
+/* .weather {
+    color: white;
     text-align: center;
 }
 
 .weather-top {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 .weather h1 {
@@ -220,24 +252,25 @@ main div {
     width: 75%;
     height: auto;
     left: 5px;
-    margin-top: -40px;
     margin-left: 20px;
+    float: left;
 }
 
 .weather-top h2 {
     font-size: 3rem;
-    margin-top: -20px;
+    top: 50px;
 }
 
 .weather-top h3 {
     grid-column: 2;
-    margin-top: -50px;
+    grid-row: 3;
+    bottom: 50px;
 }
 
 .weather-bottom {
     border-top: 1px dotted #FFD046;
     padding: 5px;
-}
+} */
 
 .join {
     display: none;
@@ -256,14 +289,14 @@ main div {
     text-align: center;
 }
 
-.spotlight1 {
+#spotlight1 {
     border: 1px solid #FFD046;
     border-collapse: separate;
     border-spacing: 10px;
     padding: 10px;
 }
 
-.spotlight1 img {
+#spotlight1 img {
     width: 39%;
     height: auto;
 }
@@ -272,19 +305,19 @@ main div {
     border-top: 1px dotted #FFD046;
 }
 
-.spotlight2 {
+#spotlight2 {
     border: 1px solid #FFD046;
     border-collapse: separate;
     border-spacing: 10px;
     padding: 10px;
 }
 
-.spotlight2 img {
+#spotlight2 img {
     width: 40%;
     height: auto;
 }
 
-.spotlight3 {
+#spotlight3 {
     display: none;
 }
 
