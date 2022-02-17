@@ -327,7 +327,7 @@ footer {
     display: block;
     background-color: #011936;
     color: #FFD046;
-    max-width: 900px;
+    max-width: 860px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -358,4 +358,52 @@ footer {
 
 .footer-bottom {
     border-top: 1px solid #960200;
+}
+
+/* DISCOVER PAGE */
+
+.discover-main h2{
+    color:#FFD046;
+    text-shadow: -3px 2px black;
+}
+
+.discover-main {
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: minmax(min-content, max-content);
+    max-width: 375px;
+}
+
+.discover-main h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+.image-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 1em;
+    margin: 1em auto;
+    z-index: -2;
+}
+
+.image-section img[data-src] {
+    filter: blur(0.5em);
+}
+
+.image-section {
+    filter: blur(0em);
+    opacity: 1;
+    transition: all 0.7s;
+    border-radius: 20px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.discover-card h3, p{
+    color: white;
+    align-items: center;
 }
