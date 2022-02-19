@@ -1,6 +1,6 @@
 // initialize display elements
 // const lastVisit = document.querySelector('lastVisit');
-let lastVisitText = document.querySelector('lastVisit');
+let lastVisitText = document.querySelector('#lastVisit');
 
 // get the stored value in localStorage
 let lastVisitDisplay = window.localStorage.getItem("lastVisit");
@@ -19,4 +19,4 @@ let numberOfDays = daysBetween / num;
 window.localStorage.setItem('lastVisit', new Date(Date.now()));
 
 const daysSinceVisit = Math.floor(numberOfDays);
-lastVisitText = daysSinceVisit;
+lastVisitText.innerHTML = daysSinceVisit;
