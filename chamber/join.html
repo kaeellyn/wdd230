@@ -11,9 +11,6 @@
         <link rel="stylesheet" href="css/small.css" />
         <link rel="stylesheet" href="css/medium.css" />
         <link rel="stylesheet" href="css/large.css" />
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Questrial&display=swap" rel="stylesheet"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Poppins:wght@700&family=Questrial&display=swap" rel="stylesheet">
@@ -22,7 +19,6 @@
         <script defer src="js/dates.js"></script>
         <script defer src="js/lastmod.js"></script>
         <script defer src="js/banner.js"></script>
-        <script defer src="js/windchill.js"></script>
     </head>
 
     <body>
@@ -61,105 +57,54 @@
 
 
             <nav>
-                <!-- <button class="menu"><span id="ham" class="toggle-btn"> &#9776; </span><span id="xbutton" class="hidden toggle-btn"> X </span></button> -->
                 <ul class="navigation">
                     <li><a class="ham" href="#">Menu</a></li>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="#">Directory</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+
+            
         </header>
 
-        <main>
+        <main class="join-main">
+
             <div id="head-banner">
                 <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
             </div>
-            <!-- <section id="content"> -->
-            <div class="hero-div">
-                <picture class="hero">
-                    <source media="(min-width: 400px) and (max-width:32.4em)" srcset="images/wdd230-org-assets/Hero1.png">
-                    <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/wdd230-org-assets/Hero2.png">
-                    <img src="images/wdd230-org-assets/hero3.png" alt="hero image">
-                </picture>
-                <!-- <img class="hero" src="images/taguig-hero.jpg" alt="hero image"> -->
-                <section class="welcome">
-                    <h1>Chamber of Commerce</h1>
-                </section>
+            
+            <h1>🤝 Join Us Now</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <label class="top" for="fname">First Name:<input type="text" id="fname" name="fname" required placeholder="Your first name"/></label><br>
+                    <label class="top" for="lname">Last Name:<input type="text" id="lname" name="lname" required placeholder="Your last name" /></label><br>
+                    <label class="top" for="email">Email:<input type="text" id="email" name="email" required placeholder="myemail@gmail.com" /></label><br>
+                    <label class="top" for="phone">Cellphone Number:<input type="phone" id="phone" name="phone" required placeholder="+639123456789" /></label>
+                </fieldset>
 
-                <section class="hero-join">
-                    <button>Join Now</button>
-                </section>
+                <fieldset>
+                    <legend>Business Info</legend>
+                    <label class="top" for="bus-posi">Business Position:<input type="text" id="bus-posi" name="bus-posi" pattern="[A-Za-z\s-]{7,}" title="Business Position"/></label><br>
+                    <label class="top" for="bus-name">Business Name:<input type="text" id="bus-name" name="bus-name" required /></label><br>
+                    <label class="top" for="bus-desc">Business Description:<textarea rows="3" id="bus-desc" name="bus-desc" ></textarea></label>
+                </fieldset>
 
-                <section class="hero-div-bottom">
-                    <h1><em>Welcome to the Taguig Chamber of Commerce</em></h1>
-                </section>
-            </div>
-            <div class="event">
-                <h1>Annual Blood Drive</h1>
-                <h2>Taguig City Hall</h2>
-                <p>Join us for the annual blood drive at 1:00 p.m.<a href="#"> more info... </a></p>
-            </div>
-            <div class="weather">
-                <section class="weather-top">
-                    <h1>Weather</h1>
-                    <img class="weather-icon" src="images/weather.webp" alt="weather icon">
-                    <h2><span id="temp">33</span>° </h2>
-                    <h3><span>Partly Cloudy</span></h3>
-                </section>
-                <section class="weather-bottom">
-                    <p>Wind Speed: <span id="wind-speed">2.5 km/h</span></p>
-                    <p>Wind Chill: <span id="wind-chill">36°</span></p>
-                </section>
-            </div>
-            <div class="join">
-                
-                <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-                <button>Join Now!</button>
-
-            </div>
-            <div class="news">
-                <h1>News Release</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quas ex nam deserunt ratione nostrum cumque tempora neque exercitationem nisi dicta ipsa autem, minus illum alias magni dolore qui? Beatae fuga esse saepe, eius velit maiores magni ea, aperiam quia perferendis sit nihil deserunt cumque, distinctio inventore vel iste ut?</p>
-            </div>
-            <div class="spotlight">
-                <div id="spotlight1">
-                    <h1>Mercado Del Lago: Food Park</h1>
-                    <img src="images/food-park.webp" alt="food park icon">
-                    <p><em>"Enjoy food inside Filipino architecture by the lake!"</em></p>
-
-                    <section class="spotlight1-contact">
-                        <p>mercadodellago.com</p>
-                        <p>+63-999-9999-999</p>
-                    </section>
-
-                </div>
-                <div id="spotlight2">
-                    <h1>Speedy Delivery</h1>
-                    <img src="images/food-del.webp" alt="food delivery icon">
-                    <p><em>"Quality food at your front door"</em></p>
-
-                    <section class="spotlight2-contact">
-                        <p>speedydelivery.com</p>
-                        <p>+63-999-9999-999</p>
-                    </section>
-                </div>
-
-                <div id="spotlight3">
-                    <h1>Mr. Laundry</h1>
-                    <img src="images/laundry-basket-icon-15871.webp" alt="laundry icon">
-                    <p><em>"You give us your dirty clothes, we give them back clean!"</em></p>
-
-                    <section class="spotlight3-contact">
-                        <p>mrlaundry.com</p>
-                        <p>+63-999-9999-999</p>
-                    </section>
-                </div>
-            </div>
-            <!-- </section> -->
+                <fieldset>
+                    <legend>Membership Plans</legend>
+                    <label class="sbs"><input type="radio" name="member" value="np"/><span class="level"> Non-profit </span><span class="price"> Free </span></label><p class="description"> Non-profit Beneifts. Non-profit Beneifts. Non-profit Beneifts. Non-profit Beneifts. Non-profit Beneifts.</p>
+                    <label class="sbs"><input type="radio" name="member" value="bronze"/><span class="level"> Bronze </span><span class="price"> ₱10,000 </span></label><p class="description"> Bronze Beneifts. </p>
+                    <label class="sbs"><input type="radio" name="member" value="silver"/><span class="level"> Silver </span><span class="price"> ₱30,000 </span></label><p class="description"> Silver Beneifts. </p>
+                    <label class="sbs"><input type="radio" name="member" value="gold"/><span class="level"> Gold </span><span class="price"> ₱50,000 </span></label><p class="description"> Gold Beneifts. </p>
+                </fieldset>
+                <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
+                <input type="submit" class="submitBtn" value="Join the Chamber!">
+            </form>
         </main>
+    
 
         <footer>
             <div class="footer-top">

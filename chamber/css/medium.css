@@ -247,4 +247,34 @@
     .footer-bottom {
         border: none;
     }
+
+    /* ========================== */
+    /* JOIN PAGE */
+    /* ========================== */
+
+    .join-main h1 {
+        font-size: 2rem;
+        margin: 20px;
+        background-color: #011936;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    form fieldset {
+        margin-left: 195px;
+        margin-right: 195px;
+    }
+
+    .description {
+        display: block;
+        color: #011936;
+    }
+
+    form input.submitBtn {
+        margin-left: 210px;
+        margin-right: 195px;
+        width: 100%;
+    }
 }
