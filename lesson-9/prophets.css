@@ -1,0 +1,61 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(225, 221, 248)
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.cards {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+
+.cards section {
+    background-color:rgb(235, 208, 235);
+    margin: 1rem;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 15px rgb(226, 180, 226);;
+}
+
+.cards section img {
+    max-width: 70%;
+    box-shadow: 5px 5px 15px;
+}
+
+.cards section h2 {
+    background-color: rgb(179, 179, 240);
+    margin: 1em;
+    padding: 0.5em;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+@media only screen and (min-width:600px) {
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cards section h2 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width:920px){
+    .cards{
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+    }
+    .cards section {
+        padding: 1.5em;
+        margin: 0;
+    }
+    .cards section img {
+        max-width: 100%;
+    }
+}
