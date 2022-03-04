@@ -322,45 +322,6 @@ main div {
     display: none;
 }
 
-/* FOOTER SECTION */
-
-footer {
-    display: block;
-    background-color: #011936;
-    color: #FFD046;
-    max-width: 860px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    border-top: 1px solid #bbb;
-    text-align: center;
-    padding: 1em;
-    line-height: 5px;
-}
-
-.contact-info a {
-    color: #FFD046;
-    text-decoration: none;
-}
-
-.footer-top {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
-}
-
-.footer-top img {
-    width: 120px;
-    height: auto;
-    margin-bottom: -40px;
-    margin-top: -30px;
-}
-
-.footer-bottom {
-    border-top: 1px solid #960200;
-}
-
 /* DISCOVER PAGE */
 
 .discover-main h2{
@@ -517,4 +478,74 @@ form label.top input:required:valid {
 .ty-p {
     color: black;
     font-size: 1rem;
+}
+
+/* DIRECTORY PAGE */
+
+.directory {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.directory img {
+    width: 100px;
+}
+
+.directory-main h1, .directory-main p {
+    color: #011936;
+}
+
+.directory section {
+    padding: 1em;
+    /* border-color: 2px solid #FFD046;
+    border-width: thick; */
+    background-color: white;
+    color:#011936;
+    
+}
+
+/* FOOTER SECTION */
+
+footer {
+    display: block;
+    background-color: #011936;
+    color: #FFD046;
+    max-width: 860px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-top: 1px solid #bbb;
+    text-align: center;
+    padding: 1em;
+    line-height: 5px;
+}
+
+.contact-info a {
+    color: #FFD046;
+    text-decoration: none;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.footer-top img {
+    width: 120px;
+    height: auto;
+    margin-bottom: -40px;
+    margin-top: -30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #960200;
 }

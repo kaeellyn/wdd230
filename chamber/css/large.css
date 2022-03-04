@@ -227,4 +227,26 @@
         width: 200%;
         max-width: 30rem;
     }
+
+    /* DIRECTORY PAGE */
+
+    /* .directory-main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: minmax(min-content, max-content);
+        vertical-align: baseline;
+        max-width: 900px;
+    } */
+
+    .directory-main {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: minmax(min-content, max-content);
+        vertical-align: baseline;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    /* .directory-main section {
+        height: 100%;
+    } */
 }

@@ -12,24 +12,27 @@ fetch(requestURL) // basic fetch() method and feed it the required argument
 
 function displayCompanies(company) {
     let card = document.createElement("section");
+    let h2 = document.createElement("h2");
     let p1 = document.createElement("p");
     let p2 = document.createElement("p");
     let link = document.createElement("a");
     let img = document.createElement("img");
     // Change the textContent property of the elements to contain company info
+    h2.innerHTML = `${company.company}`
     p1.innerHTML = `${company.address}`;
     p2.innerHTML = `${company.contact}`;
     link.innerHTML = `${company.website}`;
-    link.setAttribute("href", `http://${company.website}`);
+    link.setAttribute("href", `${company.website}`);
     img.setAttribute("src", `${company.logo}`);
-    img.setAttribute("alt", `${company.name}`);
+    img.setAttribute("alt", `${company.company}`);
 
     // Add/append the section(card)
     card.appendChild(img);
+    card.appendChild(h2);
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(link);
-    card.classList.add("dir1");
+    card.classList.add("directory");
     
     document.querySelector('div.directory').appendChild(card);
 }
