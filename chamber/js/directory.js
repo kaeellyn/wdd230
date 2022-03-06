@@ -35,4 +35,5 @@ function displayCompanies(company) {
     card.classList.add("directory");
     
     document.querySelector('div.directory').appendChild(card);
+
 }
