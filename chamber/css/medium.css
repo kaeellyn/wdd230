@@ -277,4 +277,14 @@
         margin-right: 195px;
         width: 100%;
     }
+
+    /* DIRECTORY PAGE */
+
+    .directory {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        margin: 0 auto;
+        max-width: 800px;
+    }
 }
