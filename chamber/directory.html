@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <head>
+    <head lang="en">
         <meta charset="UTF-8" />
         <meta name="author" content="Kaelyn Papa" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -14,6 +14,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Poppins:wght@700&family=Questrial&display=swap" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/dayjs.min.js"></script>
+        <script src="https://kit.fontawesome.com/5cb9098ea5.js" crossorigin="anonymous"></script>
         <script defer src="js/ham.js"></script>
         <script defer src="js/banner.js"></script>
         <script defer src="js/lastmod.js"></script>
@@ -73,11 +74,16 @@
             <section>
                 <h1>Business Directory</h1>
                 <div class="list-icons">
-                    <i class="fa-solid fa-table-cells view-active"></i>
-                    <i class="fa-solid fa-list"></i>
+                    <ul>
+                        <li class="li-list active" data-view="list-view"></li>
+                        <i class="fa-solid fa-table-list">List View</i>
+                        <li class="li-grid" data-view="grid-view"></li>
+                        <i class="fa-solid fa-table-cells-large">Grid View</i>
+                    </ul>
                 </div>
+
+                <div class="directory dir-lrg" id="dir"></div>
             </section>
-            <div class="directory"></div>
         </main>
 
         <footer>
@@ -103,7 +109,8 @@
             </div>
         </footer>
 
-        <script src="js/directory.js"></script>
+        <!-- <script src="js/directory.js"></script> -->
+        <script src="js/directory2.js"></script>
     </body>
 
 </html>
