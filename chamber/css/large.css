@@ -239,11 +239,17 @@
     } */
 
     .directory-main {
+        display: block;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .dir-lrg { 
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: minmax(min-content, max-content);
         vertical-align: baseline;
-        max-width: 1000px;
-        margin: 0 auto;
+        max-width: 900px;
     }
 
     /* .directory-main section {

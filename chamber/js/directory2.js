@@ -11,20 +11,16 @@ fetch(requestURL) // basic fetch() method and feed it the required argument
     })
 
 function displayCompanies(company) {
-    let card = document.createElement("section");
+    let cards = document.createElement("section");
     let h2 = document.createElement("h2");
     let p1 = document.createElement("p");
     let p2 = document.createElement("p");
     let link = document.createElement("a");
     let img = document.createElement("img");
-    let classDir = document.querySelector('.dir');
-    let dir = document.querySelector('#directory');
+    let classDir = document.querySelector('.directory');
+    let idDir = document.querySelector('#dir');
+    let evenDir = document.querySelectorAll('.directory:nth-child(even)');
 
-    const vw = Math.max(
-        document.documentElement.clientWidth || 0, 
-        window.innerWidth || 0);
-
-    // Change the textContent property of the elements to contain company info
     h2.textContent = `${company.company}`
     p1.textContent = `${company.address}`;
     p2.textContent = `${company.contact}`;
@@ -33,47 +29,32 @@ function displayCompanies(company) {
     img.setAttribute("src", `${company.logo}`);
     img.setAttribute("alt", `${company.company}`);
 
-    card.appendChild(img);
-    card.appendChild(h2);
-    card.appendChild(p1);
-    p1.classList.add('hidden');
-    card.appendChild(p2);
-
-    card.appendChild(link);
-    card.classList.add("dir");
-
-    // document.querySelector('div.dir').appendChild(card);
-    
     function defaultView() {
-        card.appendChild(img);
-        card.appendChild(h2);
-        card.appendChild(p1);
+        cards.appendChild(img);
+        cards.appendChild(h2);
+        cards.appendChild(p1);
         p1.classList.add('hidden');
-        card.appendChild(p2);
+        cards.appendChild(p2);
 
-        card.appendChild(link);
-        card.classList.add("dir");
+        cards.appendChild(link);
+        cards.classList.add("dir");
 
-        document.querySelector('div.dir').appendChild(card);
-    
-        if (vw >= 1024) {
-            classDir.classList.add('dir-lrg');
-        }
-    };
+        document.querySelector('div.directory').appendChild(cards);
+    }
 
     defaultView();
-};
+    
 
     const gridViewBtn = document.querySelector('.fa-table-cells-large');
     const listViewBtn = document.querySelector('.fa-table-list');
 
+    listViewBtn.addEventListener('click', function () {
+        listView();
+    });
+
     gridViewBtn.addEventListener('click', function () {
         defaultView();
         listViewRemove();
-    });
-
-    listViewBtn.addEventListener('click', function () {
-        listView();
     });
 
     function listView() {
@@ -83,10 +64,25 @@ function displayCompanies(company) {
         listViewBtn.classList.add('view-active');
         gridViewBtn.classList.remove('view-active');
 
-    };
+        cards.style.border = 0;
+    }
 
     function listViewRemove() {
+        p1.classList.add('hidden');
 
-    };
+        img.classList.remove('hidden');
 
-    
+        gridViewBtn.add('view-active');
+        listViewBtn.remove('view-active');
+
+        if (vw >= 560) {
+            classDir.classList.remove('list-layout-med');
+
+            classDir.forEach((section) => {
+                section.classList.remove('list-col');
+            });
+
+            classDir.lastElementChild.classList.remove('list-col');
+        }
+    }
+}
