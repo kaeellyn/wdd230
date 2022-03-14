@@ -141,6 +141,15 @@ main {
     /* padding: 10px; */
 }
 
+.home-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    /* padding: 10px; */
+}
+
 main div {
     margin: 0.5rem;
     /* border: 1px solid #bbb; 
