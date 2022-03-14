@@ -1,4 +1,8 @@
 @media only screen and (min-width: 60em) {
+    .header {
+        max-width: 1000px;
+    }
+    
     .navigation {
         display: flex;
     } 
@@ -41,11 +45,14 @@
         max-width: 900px;
     }
     
-    div#head-banner {
+    #head-banner {
         grid-column: 1/4;
         max-width: 1000px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         grid-row: 1;
+    }
+    div#head-banner {
+        max-width: 1000px;
     }
 
     #head-banner h2 {

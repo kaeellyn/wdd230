@@ -13,7 +13,7 @@ header {
     color: #FFD046;
     /* font-family: 'Playfair Display SC', serif; */
     font-family: 'Poppins', sans-serif;
-    padding: 5px 0;
+    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
