@@ -92,17 +92,5 @@ function displayCompanies(company) {
         listViewBtn.classList.remove('view-active');
         idDir.classList.remove('list');
         idDir.classList.add('card');
-
-        // if (vw >= 560) {
-        //     classDir.classList.remove('list-layout-med');
-
-        //     classDir.forEach((section) => {
-        //         section.classList.remove('list-col');
-        //     });
-
-        //     classDir.lastElementChild.classList.remove('list-col');
-        // }
-
-        // ONLY LEFT MISSING: MED & LARGE LIST VIEW, 4 COLUMNS.
     }
 }
