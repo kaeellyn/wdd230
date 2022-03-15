@@ -1,4 +1,5 @@
-const requestURL = 'https://kaeellyn.github.io/wdd230/chamber/js/data.json';
+// const requestURL = 'https://kaeellyn.github.io/wdd230/chamber/js/data.json';
+const requestURL = 'https://kaeellyn.github.io/wdd230/chamber/data/data.json';
 
 fetch(requestURL) // basic fetch() method and feed it the required argument
     .then(function (response) { // returns a Promise which response we will work with as an argument to an anonymous function. 

@@ -199,6 +199,22 @@ main div {
     padding: 5px;
 }
 
+#home-join1:link {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #011936;
+}
+
+a:hover {
+    color: #960200;
+}
+
 .hero-join button {
     color: white;
     background: linear-gradient(to right, #960200, #FFD046);
