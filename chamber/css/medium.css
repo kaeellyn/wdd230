@@ -299,4 +299,9 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
     }
+
+    #dir.list > section.dir {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

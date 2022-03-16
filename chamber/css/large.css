@@ -252,6 +252,10 @@
         max-width: 900px;
     }
 
+    #dir.list > section.dir {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
     /* .directory-main section {
         height: 100%;
     } */
