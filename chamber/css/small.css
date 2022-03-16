@@ -494,15 +494,54 @@ form label.top input:required:valid {
     color: white;
     text-align: center;
     padding: 1em;
+    background-color: white;
 }
 
-.directory section {
+/* .directory section {
     box-shadow: 0 8px 8px -4px #011936;
-}
+} */
 
 /* #dir {
     display: block;
 } */
+
+.directory a {
+    color: #960200;
+    text-decoration: none;
+}
+
+#dir.list {
+    grid-template-columns: 1fr;
+}
+
+#dir.list > section.dir {
+    display: block;
+    color: #960200;
+    /* line-height: 5px; */
+    text-align: left;
+}
+
+#dir.list > section.dir:nth-child(even) {
+    background: rgba(255,208,70, 0.3);
+}
+
+#dir.list > section.dir img {
+    display: none;
+    color: #960200;
+}
+
+#dir.list > section.dir p {
+    color: black;
+}
+
+#dir.list > section.dir .list-small {
+    background-color: #FFD046;
+}
+
+#dir.card > section.dir {
+    color: #960200;
+    box-shadow: 0 8px 8px -4px #011936;
+}
 
 .list-icons ul {
     font-family: 'Questrial', serif;

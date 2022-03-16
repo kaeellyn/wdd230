@@ -12,16 +12,16 @@ fetch(requestURL) // basic fetch() method and feed it the required argument
 
 function displayCompanies(company) {
     let cards = document.createElement("section");
-    let h2 = document.createElement("h2");
+    let p0 = document.createElement("p");
     let p1 = document.createElement("p");
     let p2 = document.createElement("p");
     let link = document.createElement("a");
     let img = document.createElement("img");
     let classDir = document.querySelector('.directory');
     let idDir = document.querySelector('#dir');
-    let evenDir = document.querySelectorAll('.directory:nth-child(even)');
+    let evenDir = document.querySelectorAll('#dir:nth-child(even)');
 
-    h2.textContent = `${company.company}`
+    p0.textContent = `${company.company}`
     p1.textContent = `${company.address}`;
     p2.textContent = `${company.contact}`;
     link.textContent = `${company.website}`;
@@ -31,20 +31,21 @@ function displayCompanies(company) {
 
     function defaultView() {
         cards.appendChild(img);
-        cards.appendChild(h2);
+        cards.appendChild(p0);
+        p0.classList.add('hidden');
         cards.appendChild(p1);
-        p1.classList.add('hidden');
         cards.appendChild(p2);
 
         cards.appendChild(link);
         cards.classList.add("dir");
 
+        idDir.classList.remove('list');
+        idDir.classList.add('card');
         document.querySelector('div.directory').appendChild(cards);
     }
 
     defaultView();
     
-
     const gridViewBtn = document.querySelector('.fa-table-cells-large');
     const listViewBtn = document.querySelector('.fa-table-list');
 
@@ -58,31 +59,50 @@ function displayCompanies(company) {
     });
 
     function listView() {
-        p1.classList.remove('hidden');
+        // p1.classList.remove('hidden');
         img.classList.add('hidden');
+        p0.classList.remove('hidden');
 
         listViewBtn.classList.add('view-active');
         gridViewBtn.classList.remove('view-active');
-
+        
+        // evenDir.classList.add('list-small');
+        
         cards.style.border = 0;
+        idDir.classList.add('list');
+        idDir.classList.remove('card');
+
+        if (vw >= 560) {
+            classDir.classList.add('list-layout-med');
+
+            classDir.forEach((section) => {
+                section.classList.add('list-col');
+            });
+
+            classDir.lastElementChild.classList.add('list-col');
+        }
     }
 
     function listViewRemove() {
-        p1.classList.add('hidden');
+        // p1.classList.add('hidden');
 
         img.classList.remove('hidden');
 
-        gridViewBtn.add('view-active');
-        listViewBtn.remove('view-active');
+        gridViewBtn.classList.add('view-active');
+        listViewBtn.classList.remove('view-active');
+        idDir.classList.remove('list');
+        idDir.classList.add('card');
 
-        if (vw >= 560) {
-            classDir.classList.remove('list-layout-med');
+        // if (vw >= 560) {
+        //     classDir.classList.remove('list-layout-med');
 
-            classDir.forEach((section) => {
-                section.classList.remove('list-col');
-            });
+        //     classDir.forEach((section) => {
+        //         section.classList.remove('list-col');
+        //     });
 
-            classDir.lastElementChild.classList.remove('list-col');
-        }
+        //     classDir.lastElementChild.classList.remove('list-col');
+        // }
+
+        // ONLY LEFT MISSING: MED & LARGE LIST VIEW, 4 COLUMNS.
     }
 }

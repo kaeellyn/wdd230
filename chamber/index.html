@@ -23,6 +23,7 @@
         <script defer src="js/lastmod.js"></script>
         <script defer src="js/banner.js"></script>
         <script defer src="js/windchill.js"></script>
+        <script defer src="js/weatherapi.js"></script>
     </head>
 
     <body>
@@ -105,13 +106,17 @@
             <div class="weather">
                 <section class="weather-top">
                     <h1>Weather</h1>
-                    <img class="weather-icon" src="images/weather.webp" alt="weather icon">
-                    <h2><span id="temp">33</span>° </h2>
-                    <h3><span>Partly Cloudy</span></h3>
+                    <figure>
+                        <img src="" alt="" id="weathericon" />  
+                    <figcaption></figcaption>
+                    </figure>
+                    <!-- <img class="weather-icon" src="images/weather.webp" alt="weather icon"> -->
+                    <h2><span id="current-temp"></span>° </h2>
+                    <h3><span id="weather-cond"></span></h3>
                 </section>
                 <section class="weather-bottom">
-                    <p>Wind Speed: <span id="wind-speed">2.5 km/h</span></p>
-                    <p>Wind Chill: <span id="wind-chill">36°</span></p>
+                    <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+                    <p>Wind Chill: <span id="wind-chill"></span></p>
                 </section>
             </div>
             <div class="join">
