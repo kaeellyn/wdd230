@@ -5,74 +5,98 @@
             "address": "PATEROS, METRO MANILA 1620",
             "contact": "(+632) 710-7789",
             "website": "http://www.kaseltravel.com/",
-            "logo": "images/data1.webp"
+            "logo": "images/data1.webp",
+            "membership": "gold",
+            "slogan": "Travel like kings and queens"
         },
         {
             "company": "Medico Global Clinic Manila",
             "address": "58 Bayani Road, Western Bicutan, Taguig",
             "contact": "7107064",
             "website": "http://www.medicoglobal.net",
-            "logo": "images/data2.webp"
+            "logo": "images/data2.webp",
+            "membership": "free",
+            "slogan": "Focused on quality health care, patient-centered, care-driven and personalized care"
         },{
             "company": "Housal Inc.",
             "address": "1815 High Street South Corporate Plaza 1, 9th Avenue corner 26th Street, Taguig City, ",
             "contact": "+6327599110",
             "website": "http://housal.com/",
-            "logo": "images/data3.webp"
+            "logo": "images/data3.webp",
+            "membership": "bronze",
+            "slogan": "Find your future home/office"
         },{
             "company": "OSG Global Consulting, Inc.",
             "address": "10F One Global Place, 5th Avenue Bonifacio Global City, Taguig City",
             "contact": "7883304",
             "website": "http://osg.com.ph",
-            "logo": "images/data4.webp"
+            "logo": "images/data4.webp",
+            "membership": "silver",
+            "slogan": "Let's make your ideas turn into reality."
         },{
             "company": "NetRev Marketing",
             "address": "10A Net Lima Building 5th Ave cor 26th St., Bonifacio Global City, Taguig City",
             "contact": "(02) 669-2777",
             "website": "http://www.netrev.marketing",
-            "logo": "images/data5.webp"
+            "logo": "images/data5.webp",
+            "membership": "gold",
+            "slogan": "Digital Business Transformation to Increase your NET REVenue"
         },{
             "company": "Artrecrafters",
             "address": "Blk 101 Lot 1 Sitio Imelda, Upper Bicutan, Taguig City",
             "contact": "029837342",
             "website": "http://artecrafters.com",
-            "logo": "images/data6.webp"
+            "logo": "images/data6.webp",
+            "membership": "free",
+            "slogan": "Craft like you have never have"
         },{
             "company": "Taxumo",
             "address": "12th Floor Trade and Financial Tower, Bonifacio Global City, Taguig City",
             "contact": "3681899",
             "website": "https://www.taxumo.com",
-            "logo": "images/data7.webp"
+            "logo": "images/data7.webp",
+            "membership": "bronze",
+            "slogan": "File & Pay Your Taxes in Minutes!"
         },{
             "company": "Yap & Associates Law",
             "address": "24th Floor, BGC Corporate Center, 30th Street corner 11th Avenue, Bonifacio Global City, Taguig City",
             "contact": "(632) 218-6558",
             "website": "http://yaplawoffice.com/",
-            "logo": "images/data8.webp"
+            "logo": "images/data8.webp",
+            "membership": "silver",
+            "slogan": "We'll defend you like no other"
         },{
             "company": "InCorp Philippines",
             "address": "8th Floor, Marajo Tower, 312 26th St., cor. 4th Avenue, Bonifcacio Global City, Taguig City",
             "contact": "(+632) 8424-1350",
             "website": "https://kittelsoncarpo.com",
-            "logo": "images/data9.webp"
+            "logo": "images/data9.webp",
+            "membership": "gold",
+            "slogan": "Doing business beyond borders"
         },{
             "company": "Alkemia Industrial Supply, Inc.",
             "address": "Unit 10-01 One Global Place 5th Avenue corner 25th St., Bonifacio Global City, Taguig City",
             "contact": "029647418",
             "website": "http://www.alkemia.com.ph",
-            "logo": "images/data10.webp"
+            "logo": "images/data10.webp",
+            "membership": "free",
+            "slogan": "Your solutions partner"
         },{
             "company": "Auroratech Corporation",
             "address": "UNIT 101 FUELLAS BLDG. 159 D. SILANG ST. AFPOVAI PHASE 1 , Taguig City",
             "contact": "+6328327704",
             "website": "http://www.auroratech.com.ph",
-            "logo": "images/data11.webp"
+            "logo": "images/data11.webp",
+            "membership": "bronze",
+            "slogan": "Always Ahead!"
         },{
             "company": "Maria Health",
             "address": "One Global Place, 25th Street and 5th Avenue, Bonifacio Global City, Taguig City",
             "contact": "7599210",
             "website": "https://mariahealth.ph",
-            "logo": "images/data12.webp"
+            "logo": "images/data12.webp",
+            "membership": "silver",
+            "slogan": "Find the right health plan for you."
         }
     ]
 }

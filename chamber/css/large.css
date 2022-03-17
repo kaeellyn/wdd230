@@ -137,7 +137,7 @@
         flex-direction: column;
     }
 
-    #spotlight h1 {
+    .spotlight h1 {
         font-size: 1rem;
     }
 
@@ -156,18 +156,18 @@
         grid-row: 3;
     } */ 
 
-    #spotlight3 {
+    .spotlight3 {
         display: grid;
     }
 
-    #spotlight3 {
+    .spotlight3 {
         border: 1px solid #FFD046;
         border-collapse: separate;
         border-spacing: 10px;
         padding: 10px;
     }
     
-    #spotlight3 img {
+    .spotlight3 img {
         width: 48%;
         height: auto;
         margin: 0 auto;

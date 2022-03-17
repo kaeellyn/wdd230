@@ -292,14 +292,14 @@ main div {
     text-align: center;
 }
 
-#spotlight1 {
+.spotlight1 {
     border: 1px solid #FFD046;
     border-collapse: separate;
     border-spacing: 10px;
     padding: 10px;
 }
 
-#spotlight1 img {
+.spotlight1 img {
     width: 39%;
     height: auto;
 }
@@ -308,19 +308,19 @@ main div {
     border-top: 1px dotted #FFD046;
 }
 
-#spotlight2 {
+.spotlight2 {
     border: 1px solid #FFD046;
     border-collapse: separate;
     border-spacing: 10px;
     padding: 10px;
 }
 
-#spotlight2 img {
+.spotlight2 img {
     width: 40%;
     height: auto;
 }
 
-#spotlight3 {
+.spotlight3 {
     display: none;
 }
 

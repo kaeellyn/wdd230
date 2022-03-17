@@ -1,4 +1,6 @@
 const apiURL = `https://api.openweathermap.org/data/2.5/forecast?id=1684309&appid=449176179277dc10f72a2a1de3e312e4`;
+const tempNum = parseFloat(document.querySelector('#current-temp').textContent);
+const speedNum = parseFloat(document.querySelector('#wind-speed').textContent);
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -29,4 +31,14 @@ fetch(apiURL)
         let windSpeed = jsObject.list[0].wind.speed;
         let wholeWindSpeed = Math.round(windSpeed);
         document.querySelector('#wind-speed').textContent = wholeWindSpeed;
+
+        let windChill = 35.74 + (0.6215 * tempNum) - (35.75 * (Math.pow(speedNum, 0.16)) + 0.4275 * (Math.pow(speedNum, 0.16)));
+
+        windChill = Math.round(windChill);
+        console.log(windChill);
+        if (tempNum <= 50 && speedNum > 3) {
+            document.querySelector('#wind-chill').textContent = `${windChill} \xB0F`;
+        } else {
+            document.querySelector('#wind-chill').textContent = "N/A";
+        }
     });
