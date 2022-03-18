@@ -1,4 +1,5 @@
 const companiesURL = 'https://kaeellyn.github.io/wdd230/chamber/js/data.json';
+
 const spot1name = document.querySelector('#spot1name');
 const spot1img = document.querySelector('#spot1img');
 const spot1slogan = document.querySelector('#spot1slogan');
