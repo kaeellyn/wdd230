@@ -29,6 +29,18 @@
         grid-template-rows: repeat(3, auto);
         /* grid-auto-rows: minmax(min-content, max-content); */
         margin: 0.5em auto;
+        max-width: 900px;
+    }
+
+    div#head-banner {
+        grid-column: 1/4;
+        max-width: 1000px;
+        margin: 0 auto;
+        grid-row: 1;
+    }
+
+    #head-banner h2 {
+        font-size: 1rem;
     }
 
     .hero-div {
@@ -187,6 +199,19 @@
     /* DISCOVER SECTION CSS TRANSITIONS */
     /* Parent: image-section
         Child: discover-card */
+
+    .discover-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .discover-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        max-width: 900px;
+    }
 
     .discover-card {
         transition: 1s;

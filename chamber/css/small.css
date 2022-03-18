@@ -125,7 +125,11 @@ nav {
     padding: 5px;
     text-align: center;
     display: block;
-    max-width: 900px;
+    max-width: 375px;
+}
+
+#head-banner h2 {
+    font-size: 0.8rem;
 }
 
 main {
@@ -134,7 +138,7 @@ main {
     display: block;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 main div {
@@ -331,10 +335,11 @@ main div {
     text-shadow: -3px 2px black;
 }
 
-.discover-main {
-    display: grid;
+.discover-section {
+    /* display: grid;
     grid-template-columns: minmax(min-content, max-content);
-    grid-template-rows: minmax(min-content, max-content);
+    grid-template-rows: minmax(min-content, max-content); */
+    display: block;
     max-width: 375px;
 }
 
@@ -342,6 +347,15 @@ main div {
     text-align: center;
     font-size: 2rem;
 }
+
+.discover-card {
+    padding: 1rem;
+}
+
+.discover-card img {
+    max-width: 330px;
+}
+
 .image-section {
     display: grid;
     grid-template-columns: 1fr;
@@ -608,7 +622,7 @@ footer {
     display: block;
     background-color: #011936;
     color: #FFD046;
-    max-width: 860px;
+    max-width: 900px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;

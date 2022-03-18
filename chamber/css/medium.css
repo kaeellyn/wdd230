@@ -16,6 +16,10 @@
         margin-top: 5px;
     }
 
+    div#head-banner {
+        max-width: 800px;
+    }
+
 /* 
     .navigation {
         display: flex;
@@ -201,6 +205,24 @@
     .join {
         color: white;
         font-size: 2rem;
+        text-align: center;
+    }
+
+    /* DISCOVER SECTION */
+    .discover-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .discover-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        max-width: 500px;
+    }
+
+    .discover-main h2 {
         text-align: center;
     }
 
