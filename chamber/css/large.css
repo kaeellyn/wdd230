@@ -86,7 +86,10 @@
         font-size: 1rem;
         text-align: center;
         margin: 0 auto;
-        left: 22px;
+    }
+
+    .welcome h2 {
+        font-size: 3rem;
     }
 
     .hero-join {
@@ -196,7 +199,7 @@
     }
     
     .spotlight3 img {
-        width: 48%;
+        width: 70%;
         height: auto;
         margin: 0 auto;
     }
@@ -224,7 +227,6 @@
     
     #discover-title {
         grid-column: 1/4;
-        grid-row: 2;
         padding: 1rem;
     }
     
@@ -264,7 +266,6 @@
 
     #join-banner {
         grid-column: 1/4;
-        grid-row: 2;
     }
     
     form fieldset {
@@ -310,4 +311,10 @@
     /* .directory-main section {
         height: 100%;
     } */
+
+    /* CONTACT PAGE */
+
+    .contact-address img {
+        max-width: 100%;
+    }
 }
