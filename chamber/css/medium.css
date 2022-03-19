@@ -75,13 +75,15 @@
         margin-left: 250px;
     }
 
-    .weather h1 {
+    .weather h2 {
+        /* margin-right: 200px; */
+        padding: 10px;
         font-size: 2.5rem;
     }
-    .weather h2 {
-        margin-right: 200px;
-        padding: 10px;
-    }
+
+    /* #current-temp {
+        right: 50px;
+    } */
 
     .weather h3 {
         text-align: left;
@@ -152,16 +154,20 @@
         text-align: center;
     }
     
+    .welcome h2 {
+        font-size: 4rem;
+    }
+
     .hero-join {
-        /* background: linear-gradient(to right, #960200, #FFD046); */
+        background: linear-gradient(to right, #960200, #FFD046);
         top: 350px;
         left: 300px;
         padding: 10px;
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
     }
     
-    .hero-join button {
+    .hero-join h3 {
         padding: 10px;
     }
 
@@ -254,6 +260,7 @@
     .contact {
         align-self: center;
         text-align: center;
+        left: 50px;
     }
 
     .contact-info {
@@ -325,5 +332,19 @@
     #dir.list > section.dir {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /* CONTACT PAGE */
+
+    .contact-address img {
+        max-width: 80%;
+    }
+
+    .contact-page-info {
+        font-size: 1rem;
+    }
+    
+    .contact-address p {
+        font-size: 1rem;
     }
 }

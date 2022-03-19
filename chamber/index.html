@@ -6,18 +6,14 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <title>Bridge of Taguig Home Page</title>
         <meta name="description" content="Home page for the Chamber Commerce Website: Bridge of Taguig by Kaelyn Papa for WDD230 in BYU-I" />
-        <link rel="shortcut icon" href="images/favicon (3).ico">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/small.css" />
         <link rel="stylesheet" href="css/medium.css" />
         <link rel="stylesheet" href="css/large.css" />
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Questrial&display=swap" rel="stylesheet"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Poppins:wght@700&family=Questrial&display=swap" rel="stylesheet">
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/dayjs.min.js"></script> -->
         <script defer src="js/ham.js"></script>
         <script defer src="js/dates.js"></script>
         <script defer src="js/lastmod.js"></script>
@@ -64,7 +60,6 @@
 
 
             <nav>
-                <!-- <button class="menu"><span id="ham" class="toggle-btn"> &#9776; </span><span id="xbutton" class="hidden toggle-btn"> X </span></button> -->
                 <ul class="navigation">
                     <li><a class="ham" href="#">Menu</a></li>
                     <li><a href="#">Home</a></li>
@@ -85,20 +80,19 @@
                     <picture class="hero">
                         <source media="(min-width: 400px) and (max-width:32.4em)" srcset="images/taguig-hero400px.jpg">
                         <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/taguig-hero5.jpg">
-                        <!-- <img src="images/wdd230-org-assets/hero3.png" alt="hero image"> -->
                         <img src="images/taguig-hero4.jpg" alt="hero image">
                     </picture>
-                    <!-- <img class="hero" src="images/taguig-hero.jpg" alt="hero image"> -->
                     <section class="welcome">
-                        <h1>Chamber of Commerce</h1>
+                        <h2>Chamber of Commerce</h2>
                     </section>
 
                     <section class="hero-join">
-                        <button id="home-join1"><a href="join.html">Join Now</a></button>
+                        <a href="join.html"><h3>Join Now</h3></a>
+                        <!-- <a href="join.html"><button id="home-join1">Join Now</button></a> -->
                     </section>
 
                     <section class="hero-div-bottom">
-                        <h1><em>Welcome to the Taguig Chamber of Commerce</em></h1>
+                        <h2><em>Welcome to the Taguig Chamber of Commerce</em></h2>
                     </section>
                 </div>
                 <div class="event">
@@ -108,16 +102,16 @@
                 </div>
                 <div class="weather">
                     <section class="weather-top">
-                        <h1>Weather</h1>
+                        <h2>Weather</h2>
                         <figure>
-                            <img src="" alt="" id="weathericon" />  
+                            <img src="images/weather.webp" alt="" id="weathericon" />  
                         <figcaption></figcaption>
                         </figure>
-                        <!-- <img class="weather-icon" src="images/weather.webp" alt="weather icon"> -->
-                        <h2><span id="current-temp"></span>° </h2>
-                        <h3><span id="weather-cond"></span></h3>
+                        <h2><span id="current-temp"></span>°</h2>
+                        <p><span id="weather-cond"></span></p>
                     </section>
                     <section class="weather-bottom">
+                        <h4>-----------</h4>
                         <p>Wind Speed: <span id="wind-speed"></span> mph</p>
                         <p>Wind Chill: <span id="wind-chill"></span></p>
                     </section>
@@ -125,7 +119,8 @@
                 <div class="join">
                     
                     <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-                    <button id="home-join2"><a href="join.html">Join Now!</a></button>
+                    <!-- <button id="home-join2"><a href="join.html">Join Now!</a></button> -->
+                    <button onclick="window.location.href='join.html';">Join Now!</button>
                 </div>
                 <div class="news">
                     <h1>News Release</h1>
@@ -133,43 +128,43 @@
                 </div>
                 <div class="spotlight">
                     <div class="spotlight1">
-                        <h1 id="spot1name">Company</h1>
-                        <img id="spot1img" src="" alt="" />
+                        <h2 id="spot1name">Company</h2>
+                        <img id="spot1img" src="images/favicon.ico" alt="spotlight 1 logo" />
                         <p>
                             <em><span id="spot1slogan"></span></em>
                         </p>
 
-                        <section class="spotlight1-contact">
+                        <div class="spotlight1-contact">
                             <span id="spot1web">website</span>
                             <span id="spot1contact">contact</span>
-                        </section>
+                        </div>
 
                     </div>
                     <div class="spotlight2">
-                        <h1 id="spot2name">Company</h1>
-                        <img id="spot2img" src="" alt="" />
+                        <h2 id="spot2name">Company</h2>
+                        <img id="spot2img" src="images/favicon.ico" alt="spotlight 2 logo" />
                         <p>
                             <em><span id="spot2slogan"></span></em>
                         </p>
 
-                        <section class="spotlight2-contact">
+                        <div class="spotlight2-contact">
                             <span id="spot2web">website</span>
                             <span id="spot2contact">contact</span>
-                        </section>
+                        </div>
 
                     </div>
 
                     <div class="spotlight3">
-                        <h1 id="spot3name">Company</h1>
-                        <img id="spot3img" src="" alt="" />
+                        <h2 id="spot3name">Company</h2>
+                        <img id="spot3img" src="images/favicon.ico" alt="spotlight 3 logo" />
                         <p>
                             <em><span id="spot3slogan"></span></em>
                         </p>
 
-                        <section class="spotlight3-contact">
+                        <div class="spotlight3-contact"></div>
                             <span id="spot3web">website</span>
                             <span id="spot3contact">contact</span>
-                        </section>
+                        </div>
 
                     </div>
                 </div>
@@ -185,11 +180,11 @@
                         <h4>Bridge of Taguig</h4>
                         <p>Taguig, Philippines</p>
                 </section>
-                <section class="contact">
+                <div class="contact">
                     <p class="contact-info">info@bridgeoftaguig.org</p>
                     <p class="contact-info">+(63) 948-4938-498</p>
                     <p class="contact-info"><a href="https://goo.gl/maps/Hvadkw8JLHKUNuRq8" target="blank">📍 Location Map</a></p>
-                </section>
+                </div>
             </div>
             
             <div class="footer-bottom">
