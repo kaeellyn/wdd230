@@ -159,9 +159,9 @@
     }
 
     .hero-join {
-        background: linear-gradient(to right, #960200, #FFD046);
+        /* background: linear-gradient(to right, #960200, #FFD046); */
         top: 350px;
-        left: 300px;
+        left: 320px;
         padding: 10px;
         font-size: 1rem;
         text-align: center;
