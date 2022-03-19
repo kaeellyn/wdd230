@@ -193,10 +193,10 @@ main div {
 
 .hero-join {
     position: absolute;
-    background: rgba(255, 115, 0, 0.3);
+    /* background: rgba(255, 115, 0, 0.3); */
     /* background: linear-gradient(to right, #960200, #FFD046); */
     top: 240px;
-    left: 150px;
+    left: 130px;
     padding: 10px;
     font-family: 'Questrial', serif;
 }
@@ -273,6 +273,10 @@ a:hover {
 
 #weather-cond {
     text-align: right ;
+}
+
+.weather-top img {
+    max-width: 110%;
 }
 
 /* .weather {
