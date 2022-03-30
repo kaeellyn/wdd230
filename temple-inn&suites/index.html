@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Kaelyn Papa" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Temple Inn & Suites Home Page</title>
+        <meta name="description" content="Home page for the Temple Inn and Suites Website by Kaelyn Papa for WDD230 in BYU-I" />
+        <link rel="shortcut icon" href="images/favicon5.ico" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/medium.css" />
+        <link rel="stylesheet" href="css/large.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+        <script defer src="js/script.js"></script>
+        <script defer src="js/weather.js"></script>
+        <script src="https://kit.fontawesome.com/5cb9098ea5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <!-- <div class="logo">
+                <a href="index.html">
+                <img src="images/TIS-Logo5-50x50.webp" />
+                </a>
+            </div> -->
+            <!-- <a href="index.html"><h1 class="site-title">Temple Inn & Suites</h1></a> -->
+
+            <nav class="navbar">
+
+                <img class="navbar-logo" src="images/TIS-Logo5-50x50.webp" />
+                <a href="index.html" class="nav-branding">
+                    <img class="navbrand-logo" src="images/TIS-Logo5-50x50.webp" />
+                    <h1 class="site-title-in">Temple Inn & Suites</h1></a>
+                    <a href="index.html"><h1 class="site-title">Temple Inn & Suites</h1></a>
+                <ul class="nav-menu">
+                    <img class="navmenu-logo" src="images/TIS-Logo5-50x50.webp" />
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="temple.html" class="nav-link">Temple</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reservation.html" class="nav-link">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <div class="nav-other">
+                        <span class="bar-nav"></span>
+                        <div class="socialstop">
+                            <div class="top-social">
+                                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
+                            </div>
+
+                            <span class="bar-nav"></span>
+                            <ul class="nav-contact">
+                                <li><i class="fa-solid fa-phone"></i>
+                                    <div class="contact-content">
+                                        <h2>Contact Info</h2>
+                                        <p>Email: templeinnandsuites@gmail.com</p>
+                                        <p>+1 (410) 555-5555</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <span class="bar-nav"></span>
+                            <ul class="nav-contact">
+                                <li><i class="fa-solid fa-phone"></i>
+                                    <div class="contact-content">
+                                        <h2>Contact Info</h2>
+                                        <p>Email: templeinnandsuites@gmail.com</p>
+                                        <p>+1 (41) 555-5555</p>
+                                    </div>
+                                </li>
+                            </ul> -->
+                    </div>
+                </ul>
+
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="home-wrapper">
+                <section class="hero">
+                    <picture class="hero-img responsive">
+                        <source media="(min-width: 200px) and (max-width:319px)" srcset="images/hero-comp-tp-375.webp">
+                        <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/hero-comp-tp-375.webp">
+                        <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/hero-comp-tp-800.webp">
+                        <img src="images/hero-comp-tp-1900.webp" alt="hero image">
+                    </picture>
+                    <div class="hero-content">
+                        <h2>A Place To Share Comfort</h2>
+                        <p></p>
+                        <button class="hero-button" onclick="window.location.href='reservation.html';">
+                            Make A Reservation Now
+                        </button>
+                    </div>
+                </section>
+
+                <section class="weather">
+                    <h2>Weather</h2>
+                    <div class="date" id="date">
+                        Monday, 28 March
+                    </div>
+                    <div class="country" id="country">
+                        Bethesda, Maryland
+                    </div>
+
+                    <div class="weather-value">
+                        <figure>
+                            <img src="" alt="weather icon" id="weather-icon" />  
+                        <!-- <figcaption></figcaption> -->
+                        </figure>
+                        <h3><span id="current-temp"></span>&#176;</h3>
+                        <p><span id="weather-cond"></span></p>
+                        <p><span id="humidity"></span> % (Humidity)</p>
+                    </div>
+                    <h2>Three-Day Forecast</h2>
+                    <div class="future-forecast">
+                        
+                        <div class="future-forecast-item">
+                            <img src="" alt="weather icon" class="w-icon-next" />
+                            <div class="day1">Tuesday</div>
+                            <!-- <div class="temp1">35.6&#176; C</div> -->
+                            <h3><span id="temp1"></span>&#176;C</h3>
+                            <p><span id="nextCond"></span></p>
+                        </div>
+                        <div class="future-forecast-item">
+                            <img src="" alt="weather icon" class="w-icon-two" />
+                            <div class="day2">Wednesday</div>
+                            <!-- <div class="temp2">Day - 35.6&#176; C</div> -->
+                            <h3><span id="temp2"></span>&#176;C</h3>
+                            <p><span id="twoCond"></span></p>
+                        </div>
+                        <div class="future-forecast-item">
+                            <img src="" alt="weather icon" class="w-icon-three" />
+                            <div class="day3">Thursday</div>
+                            <!-- <div class="temp3">35.6&#176; C</div> -->
+                            <h3><span id="temp3"></span>&#176;C</h3>
+                            <p><span id="threeCond"></span></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="home-temple">
+                    <div class="temple-showcase">
+                        <picture class="home-temple responsive">
+                            <source media="(min-width: 200px) and (max-width:319px)" srcset="images/brigham_city-home-SMALL-comp-webp.webp">
+                            <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/brigham_city-home-SMALL-comp-webp.webp">
+                            <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/brigham_city-home-MED-comp-webp.webp">
+                            <img src="images/brigham_city-home-comp-webp.webp" alt="hero image">
+                        </picture>
+                    </div>
+
+                    <div class="temple-home-content">
+                        <h2>Brigham City Utah Temple</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ex culpa quos aut repellendus nostrum cum sit ea non laudantium reprehenderit odit commodi id alias reiciendis, quas numquam, quibusdam ab?</p>
+                        <button class="temple-home-button" onclick="window.location.href='temple.html';">
+                            View More
+                        </button>
+                    </div>
+                </section>
+
+                <section class="home-temple-gallery">
+                    <h2>Temple Activities</h2>
+                    <div class="home-temple-pics">
+                        <div class="temple1">
+                            <a href="services.html">
+                                <picture class="home-temple-pic responsive">
+                                    <source media="(min-width: 200px) and (max-width:319px)" srcset="images/tAct1-home-small-comp-webp.webp">
+                                    <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/tAct1-home-small-comp-webp.webp">
+                                    <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/tAct1-home-med-comp-webp.webp">
+                                    <img src="images/tAct1-home-comp-webp.webp" alt="hero image">
+                                </picture>
+                            </a>
+                            <h3>Attend the General Conference</h3>
+                        </div>
+
+                        <div class="temple2">
+                            <a href="services.html">
+                                <picture class="home-temple-pic responsive">
+                                    <source media="(min-width: 200px) and (max-width:319px)" srcset="images/tAct2-home-small-comp-webp.webp">
+                                    <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/tAct2-home-small-comp-webp.webp">
+                                    <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/tAct2-home-med-comp-webp.webp">
+                                    <img src="images/tAct2-home-comp-webp.webp" alt="hero image">
+                                </picture>
+                            </a>
+                            <h3>Spend Time with Your Family</h3>
+                        </div>
+
+                        <div class="temple3">
+                            <a href="services.html">
+                                <picture class="home-temple-pic responsive">
+                                    <source media="(min-width: 200px) and (max-width:319px)" srcset="images/tAct3-home-small-comp-webp.webp">
+                                    <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/tAct3-home-small-comp-webp.webp">
+                                    <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/tAct3-home-med-comp-webp.webp">
+                                    <img src="images/tAct3-home-comp-webp.webp" alt="hero image">
+                                    
+                                </picture>
+                            </a>
+                            <h3>Perform Saving Ordinances</h3>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-wrapper">
+                <img class="footer-logo" src="images/TIS-Logo5-50x50.webp" alt="LOGO" />
+                
+                <div class="footer-content">
+                    <h2>Temple Inn & Suites</h2>
+                    <div class="footer-contacts">
+                        <p>Contact No: +1 (410) 555-5555</p>
+                        <p>Email: templeinnandsuites@gmail.com</p>
+                        <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+USA/@38.9832559,-77.096079,19z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">
+                            📍 Location Map
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

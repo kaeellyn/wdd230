@@ -1,0 +1,53 @@
+@media only screen and (min-width: 32.5em) {
+    
+    /* HEADER */
+
+    .nav-menu.active {
+        left: 0px;
+    }
+
+    .bar-nav {
+        width: 300px;
+    }
+
+    .site-title-in {
+        font-size: 2rem;
+    }
+
+    .nav-branding {
+        margin-left: -150px;
+    }
+
+    /* MAIN */
+
+    /* Hero Section */
+
+    .hero-img {
+        justify-content: center;
+    }
+
+    .hero-content {
+        font-size: 1.5rem;
+        left: 50px;
+    }
+
+    /* Weather Section */
+
+    .future-forecast {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Home Temple Section */
+    /* FOOTER */
+
+    .footer-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footer-logo {
+        width: 10%;
+    }
+}
