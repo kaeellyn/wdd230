@@ -1,0 +1,174 @@
+@media only screen and (min-width: 60em) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        position: fixed;
+        left: 0px;
+        top: 70px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /* .site-title-in {
+        display: none;
+    } */
+    .nav-branding {
+        top: 60px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .navbar-logo {
+        opacity: 0;
+    }
+
+    .navbrand-logo {
+        display: none;
+    }
+
+    .navmenu-logo {
+        display: flex;
+    }
+
+    .site-title-in {
+        justify-content: center;
+    }
+
+    .nav-branding {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-bar {
+        justify-content: center;
+        min-height: 0px;
+    }
+
+    .nav-menu:nth-child(5) {
+        color: black;
+    }
+    /* .site-title {
+        display: block;
+        color: #EE9748;
+        text-align: center;
+    } */
+
+    .socialtop {
+        float: right;
+        margin-right: 5%;
+    }
+
+    .top-social {
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+
+    .top-social a:hover {
+        color: #FFCFBB;
+    }
+
+    .socialstop {
+        padding: 5px;
+        display: flex;
+    }
+
+    .nav-contact {
+        padding: 7px;
+        order: 1;
+    }
+
+    .bar-nav {
+        display: none;
+    }
+
+    .nav-contact {
+        display: flex;
+        position: relative;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .nav-contact .contact-content {
+        position: absolute;
+        top: 30px;
+        right: 2px;
+        width: 300px;
+        background-color: #FFCFBB;
+        padding: 20px;
+        visibility: hidden; 
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    .nav-contact li:hover .contact-content {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .nav-menu .nav-contact {
+        justify-content: flex-start;
+    }
+
+    .nav-other {
+        display: flex;
+        justify-content: end;
+        vertical-align: middle;
+        flex-direction: row;
+    }
+
+    /* MAIN */
+
+    /* Hero Section */
+
+    .hero-content {
+        font-size: 2rem;
+    }
+
+    /* Weather Section */
+
+    .weather-value {
+        font-size: 1.5rem;
+    }
+
+    #weather-icon {
+        width: 5%;
+    }
+
+
+    /* Home Temple Section */
+
+    .temple-home-content {
+        width: 1920px;
+        bottom: 300px;
+    }
+
+    .home-temple-pics {
+        display: flex;
+        justify-content: center;
+    }
+
+    .temple1, .temple2, .temple3 {
+        transition: 1s;
+        margin: 0 10px;
+        box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+    }
+
+    .temple1 img, .temple2 img, .temple3 img {
+        border-radius: 5px;
+    }
+
+    .temple1 img:hover, .temple2 img:hover, .temple3 img:hover {
+        transform: scale(1.3);
+        z-index: 2;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    /* FOOTER */
+
+    .footer-logo {
+        width: 3%;
+    }
+}
