@@ -14,7 +14,7 @@
             "telephone": "(1) 928-428-7243",
             "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
             "schedule": "Saturday 2 April 2022, Wednesday 20 April 2022 (Limited Operations), Saturday 23 July 2022, Monday 12 September 2022 - Monday 26 September 2022, Saturday 1 October 2022, Wednesday 23 November 2022 - Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022",
-            "image": "images/gila_valleyCARD.jpg"
+            "image": "wdd230/temple-inn&suites/images/gila_valleyCARD.jpg"
         },
         {
             "temple": "Provo City Center Temple",
@@ -22,7 +22,7 @@
             "telephone": "(1) 801-343-2700",
             "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
             "schedule": "Saturday 2 April 2022, Monday 20 June 2022 - Monday 4 July 2022, Saturday 1 October 2022, Wednesday 23 November 2022 (Limited Operations), Thursday 24 November 2022, Monday 28 November 2022 - Monday 12 December 2022, Saturday 24 December 2022, Saturday 31 December 2022",
-            "image": "images/provoCARD.jpg"
+            "image": "wdd230/temple-inn&suites/images/provoCARD.jpg"
         },
         {
             "temple": "Salt Lake Temple",
@@ -30,7 +30,7 @@
             "telephone": "Closed During Renovation",
             "services": "Closed During Renovation",
             "schedule": "Closed During Renovation",
-            "image": "images/salt_lakeCARD.jpg"
+            "image": "wdd230/temple-inn&suites/images/salt_lakeCARD.jpg"
         }
     ]
 }
