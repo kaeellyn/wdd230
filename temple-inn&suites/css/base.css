@@ -311,6 +311,86 @@ div.temple-home-content {
     border-radius: 40px;
     box-shadow: 5px 10px rgba(80, 79, 79, 0.5);
 }
+
+/* RESERVATIONS PAGE */
+
+.reservation-main {
+    background-color: #EE9748;
+    color:#FFF7C8;
+    padding: 20px;
+}
+
+.reservation-main form {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.reservation-main form fieldset {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.reservation-main label, option, select {
+    font-family: 'Libre Franklin', serif;
+}
+
+.reservation-main legend {
+    font-family: 'Josefin Sans', serif;
+    font-size: 2rem;
+}
+
+.reservation-main input, select, textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.reservation-main form label.top {
+    padding-top: 0.5rem;
+}
+
+.reservation-main form label.top input:required, .reservation-main form label.top select:required {
+    border-left: #960200 solid 6px;
+}
+
+.reservation-main form label.top input:required:valid, .reservation-main form label.top select:valid {
+    border-left: green solid 6px;
+}
+
+.reservation-main form fieldset legend:nth-child(2) {
+    padding-top: 20px;
+}
+
+.reservation-main form fieldset {
+    padding: 30px;
+}
+
+.reservation-main form fieldset legend.top {
+    padding-top: 20px;
+}
+
+input[type=submit] {
+    background-color: #FFF7C8;
+    color:#EE9748;
+    font-family: 'Josefin Sans', serif;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    margin-top: 20px;
+    max-width: 350px;
+    border-radius: 20px;
+}
+
+/* THANK YOU PAGE AFTER RESERVATIONS */
+
+.thank-you-content {
+    text-align: center;
+    color:#FFF7C8;
+    position: absolute;
+    top: 250px;
+    background-color: rgba(126, 124, 124, 0.3);
+    padding: 20px;
+    margin: 0 auto;
+}
 /* FOOTER */
 
 .footer-wrapper {

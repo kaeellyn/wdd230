@@ -166,6 +166,31 @@
         cursor: pointer;
     }
 
+    /* RESERVATION PAGE */
+
+    .reservation-main {
+        font-size: 1rem;
+    }
+
+    .reservation-main form {
+        padding-top: 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    input[type=submit] {
+        margin-left: 250px;
+    }
+
+    /* THANK YOU PAGE AFTER RESERVATIONS */
+
+    .thank-you-content {
+        font-size: 1.5rem;
+        left: 32rem;
+        top: 400px;
+        padding: 100px;
+    }
+
     /* FOOTER */
 
     .footer-logo {

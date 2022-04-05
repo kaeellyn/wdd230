@@ -1,0 +1,1 @@
+const requestURL = 'https://kaeellyn.github.io/wdd230/temple-inn&suites/data/temples.json';
