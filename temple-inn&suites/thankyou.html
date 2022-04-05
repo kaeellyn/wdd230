@@ -22,7 +22,6 @@
     <body>
         <header>
             <nav class="navbar">
-
                 <img class="navbar-logo" src="images/TIS-Logo5-50x50.webp" />
                 <a href="index.html" class="nav-branding">
                     <img class="navbrand-logo" src="images/TIS-Logo5-50x50.webp" />
@@ -73,44 +72,23 @@
             </nav>
         </header>
 
-        <main class="reservation-main">
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Contact Info</legend>
-                    <label class="top" for="fname">First Name:<input type="text" id="fname" name="fname" required placeholder="Your first name"/></label><br>
-                    <label class="top" for="lname">Last Name:<input type="text" id="lname" name="lname" required placeholder="Your last name" /></label><br>
-                    <label class="top" for="email">Email:<input type="text" id="email" name="email" required placeholder="myemail@gmail.com" /></label><br>
-                    <label class="top" for="phone">Phone Number:<input type="tel" id="phone" name="phone" required placeholder="+(1)-999-999-9999" /></label>
-                    <hr>
-                    <legend>Address</legend>
-                    <label class="top" for="street">Street Address:<input type="text" id="street" name="street" required /></label>
-                    <label class="top" for="city">City:<input type="text" id="city" name="city" required /></label>
-                    <label class="top" for="state">State / Province:<input type="text" id="state" name="state" required /></label>
-                    <label class="top" for="zip">Postal Zip Code:<input type="text" id="zip" name="zip" required /></label>
-                </fieldset>
+        <main>
+            <section class="thank-you">
+                <div class="thank-you-bg">
+                    <picture class="hero-img responsive">
+                        <source media="(min-width: 200px) and (max-width:319px)" srcset="images/hero-comp-tp-375.webp">
+                        <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/hero-comp-tp-375.webp">
+                        <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/hero-comp-tp-800.webp">
+                        <img src="images/hero-comp-tp-1900.webp" alt="hero image">
+                    </picture>
+                </div>
 
-                <fieldset>
-                    <legend>Accommodation Info</legend>
-                    <label class="top" for="location">Hotel Location:<input type="text" id="location" name="location" required title="location"/></label><br>
-                    <label class="top" for="arrival">Arrival Date:<input type="date" id="arrival" name="arrival" required title="arrival"/></label><br>
-                    <label class="top" for="departure">Departure Date:<input type="date" id="departure" name="departure" required title="departure"/></label><br>
-                    <label class="top" for="pax">Number of People:<input type="number" id="pax" name="pax" required title="pax"/></label><br>
-                    <label class="top" for="room">Room Type:</label>
-                    <select required id="room">
-                        <option class="top" value="room">Select Room</option>
-                        <option class="top" value="room">Single</option>
-                        <option class="top" value="room">Double</option>
-                        <option class="top" value="room">Triple</option>
-                        <option class="top" value="room">Junior Suite</option>
-                        <option class="top" value="room">Executive Suite</option>
-                        <option class="top" value="room">Presidential Suite</option>
-                    </select>
-                    <label class="top" for="comments">Special Accommodation / Comments:<textarea rows="3" id="comments" name="comments" ></textarea></label>
-                </fieldset>
-
-                <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
-                <input type="submit" class="submitBtn" value="Book Reservation!">
-            </form>
+                <div class="thank-you-content">
+                    <h2>Thank You!</h2>
+                    <p>One of our agents will contact you shortly to confirm your booking</p>
+                    <p>Call us if you have any questions!</p>
+                </div>
+            </section>
         </main>
 
         <footer>
@@ -134,4 +112,5 @@
                 </div>
             </div>
         </footer>
+    </body>
 </html>

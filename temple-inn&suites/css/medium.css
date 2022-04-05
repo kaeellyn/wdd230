@@ -39,6 +39,24 @@
     }
 
     /* Home Temple Section */
+
+    /* RESERVATION PAGE */
+
+    .reservation-main form {
+        max-width: 650px;
+    }
+
+    input[type=submit] {
+        margin-left: 150px;
+    }
+
+    /* THANK YOU PAGE AFTER RESERVATIONS */
+
+    .thank-you-content {
+        margin:0 auto;
+        left: 120px;
+    }
+
     /* FOOTER */
 
     .footer-wrapper {

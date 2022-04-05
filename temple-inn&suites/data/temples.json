@@ -4,45 +4,33 @@
             "temple": "Brigham City Utah Temple",
             "address": "250 S Main St Brigham City UT 84302-2560 United States",
             "telephone": "(1) 435-695-2170",
-            "email": "",
             "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-            "history": "",
-            "ordinance schedule": "",
-            "session schedule": "",
-            "temple closure schedule": "Saturday 2 April 2022, Monday 8 August 2022 - Monday 22 August 2022, Friday 9 September 2022 (Limited Operations), Saturday 10 September 2022, Saturday 1 October 2022, Wednesday 23 November 2022 (Limited Operations), Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022 (Limited Operations)"
+            "temple closure schedule": "Saturday 2 April 2022, Monday 8 August 2022 - Monday 22 August 2022, Friday 9 September 2022 (Limited Operations), Saturday 10 September 2022, Saturday 1 October 2022, Wednesday 23 November 2022 (Limited Operations), Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022 (Limited Operations)",
+            "image": "images/brigham_city_temple_lds-800x536px.jpeg"
         },
         {
             "temple": "Gila Valley Arizona Temple",
             "address": "5291 W Highway 70 Central AZ 85531 United States",
             "telephone": "(1) 928-428-7243",
-            "email": "",
             "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
-            "history": "",
-            "ordinance schedule": "",
-            "session schedule": "",
-            "temple closure schedule": "Saturday 2 April 2022, Wednesday 20 April 2022 (Limited Operations), Saturday 23 July 2022, Monday 12 September 2022 - Monday 26 September 2022, Saturday 1 October 2022, Wednesday 23 November 2022 - Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022"
+            "temple closure schedule": "Saturday 2 April 2022, Wednesday 20 April 2022 (Limited Operations), Saturday 23 July 2022, Monday 12 September 2022 - Monday 26 September 2022, Saturday 1 October 2022, Wednesday 23 November 2022 - Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022",
+            "image": "images/gila_valley_temple_lds-800x533pxCOMP.jpeg"
         },
         {
             "temple": "Provo City Center Temple",
             "address": "50 South University Ave Provo UT 84601 United States",
             "telephone": "(1) 801-343-2700",
-            "email": "",
             "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-            "history": "",
-            "ordinance schedule": "",
-            "session schedule": "",
-            "temple closure schedule": "Saturday 2 April 2022, Monday 20 June 2022 - Monday 4 July 2022, Saturday 1 October 2022, Wednesday 23 November 2022 (Limited Operations), Thursday 24 November 2022, Monday 28 November 2022 - Monday 12 December 2022, Saturday 24 December 2022, Saturday 31 December 2022"
+            "temple closure schedule": "Saturday 2 April 2022, Monday 20 June 2022 - Monday 4 July 2022, Saturday 1 October 2022, Wednesday 23 November 2022 (Limited Operations), Thursday 24 November 2022, Monday 28 November 2022 - Monday 12 December 2022, Saturday 24 December 2022, Saturday 31 December 2022",
+            "image": "images/provo_city_center_temple_exterior-800x518px.jpeg"
         },
         {
             "temple": "Salt Lake Temple",
             "address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
             "telephone": "Closed During Renovation",
-            "email": "",
             "services": "Closed During Renovation",
-            "history": "",
-            "ordinance schedule": "Closed During Renovation",
-            "session schedule": "Closed During Renovation",
-            "temple closure schedule": "Closed During Renovation"
+            "temple closure schedule": "Closed During Renovation",
+            "image": "images/salt_lake_temple_christmas_lights-800x588px.jpeg"
         }
     ]
 }
