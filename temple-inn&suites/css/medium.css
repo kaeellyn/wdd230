@@ -57,6 +57,26 @@
         left: 120px;
     }
 
+    /* SERVICES PAGE */
+
+    .services-hero {
+        font-size: 2rem;
+    }
+
+    .services-wedding-content {
+        top: 1200px;
+    }
+
+    .services-suite-content {
+        top: 2000px;
+    }
+
+    /* SUITE/MISSIONARIES PAGE */
+
+    .sendBtn {
+        left: 500px;
+    }
+    
     /* FOOTER */
 
     .footer-wrapper {
