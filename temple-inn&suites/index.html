@@ -16,7 +16,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
         <script defer src="js/script.js"></script>
-        <script defer src="js/weather2.js"></script>
+        <!-- <script defer src="js/weather2.js"></script> -->
+        <script defer src="js/weather.js"></script>
         <script src="https://kit.fontawesome.com/5cb9098ea5.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -24,13 +25,14 @@
 
             <nav class="navbar">
 
-                <img class="navbar-logo" src="images/TIS-Logo5-50x50.webp" />
+                <img class="navbar-logo" src="images/TIS-Logo5-50x50.webp" alt="logo"/>
                 <a href="index.html" class="nav-branding">
-                    <img class="navbrand-logo" src="images/TIS-Logo5-50x50.webp" />
+                    <img class="navbrand-logo" src="images/TIS-Logo5-50x50.webp" alt="logo"/>
                     <h1 class="site-title-in">Temple Inn & Suites</h1></a>
                     <a href="index.html"><h1 class="site-title">Temple Inn & Suites</h1></a>
+                    <!-- <img class="navmenu-logo" src="images/TIS-Logo5-50x50.webp" alt="logo"/> -->
                 <ul class="nav-menu">
-                    <img class="navmenu-logo" src="images/TIS-Logo5-50x50.webp" />
+                    <img class="navmenu-logo" src="images/TIS-Logo5-50x50.webp" alt="logo"/>
                     <li class="nav-item">
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
@@ -102,32 +104,32 @@
                     </div>
 
                     <div class="weather-value" id="current-weather-items">
-                        <!-- <figure>
-                            <img src="" alt="weather icon" id="weather-icon" />  
-                        <!-- <figcaption></figcaption> -->
+                        <figure>
+                            <img src="images/favicon5.ico" alt="weather icon" id="weather-icon" />  
+                            <figcaption></figcaption>
                         </figure>
                         <h3><span id="current-temp"></span>&#176;</h3>
                         <p><span id="weather-cond"></span></p>
-                        <p><span id="humidity"></span> % (Humidity)</p> -->
+                        <p><span id="humidity"></span> % (Humidity)</p> 
                     </div>
                     <h2>Three-Day Forecast</h2>
                     <div class="future-forecast">
                         <div class="future-forecast-item">
-                            <img src="" alt="weather icon" class="w-icon-next" />
+                            <img src="images/favicon5.ico" alt="weather icon" class="w-icon-next" />
                             <div class="day1">Tuesday</div>
                             <!-- <div class="temp1">35.6&#176; C</div> -->
                             <h3><span id="temp1"></span>&#176;C</h3>
                             <p><span id="nextCond"></span></p>
                         </div>
                         <div class="future-forecast-item">
-                            <img src="" alt="weather icon" class="w-icon-two" />
+                            <img src="images/favicon5.ico" alt="weather icon" class="w-icon-two" />
                             <div class="day2">Wednesday</div>
                             <!-- <div class="temp2">Day - 35.6&#176; C</div> -->
                             <h3><span id="temp2"></span>&#176;C</h3>
                             <p><span id="twoCond"></span></p>
                         </div>
                         <div class="future-forecast-item">
-                            <img src="" alt="weather icon" class="w-icon-three" />
+                            <img src="images/favicon5.ico" alt="weather icon" class="w-icon-three" />
                             <div class="day3">Thursday</div>
                             <!-- <div class="temp3">35.6&#176; C</div> -->
                             <h3><span id="temp3"></span>&#176;C</h3>

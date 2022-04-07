@@ -23,13 +23,13 @@
         <header>
             <nav class="navbar">
 
-                <img class="navbar-logo" src="images/TIS-Logo5-50x50.webp" />
+                <img class="navbar-logo" src="images/TIS-Logo5-50x50.webp" alt="logo"/>
                 <a href="index.html" class="nav-branding">
-                    <img class="navbrand-logo" src="images/TIS-Logo5-50x50.webp" />
+                    <img class="navbrand-logo" src="images/TIS-Logo5-50x50.webp" alt="logo"/>
                     <h1 class="site-title-in">Temple Inn & Suites</h1></a>
                     <a href="index.html"><h1 class="site-title">Temple Inn & Suites</h1></a>
                 <ul class="nav-menu">
-                    <img class="navmenu-logo" src="images/TIS-Logo5-50x50.webp" />
+                    <img class="navmenu-logo" src="images/TIS-Logo5-50x50.webp" alt="logo"/>
                     <li class="nav-item">
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
@@ -82,7 +82,6 @@
                     <label class="top" for="email">Email:<input type="text" id="email" name="email" required placeholder="myemail@gmail.com" /></label><br>
                     <label class="top" for="phone">Phone Number:<input type="tel" id="phone" name="phone" required placeholder="+(1)-999-999-9999" /></label>
                     <hr>
-                    <legend>Address</legend>
                     <label class="top" for="street">Street Address:<input type="text" id="street" name="street" required /></label>
                     <label class="top" for="city">City:<input type="text" id="city" name="city" required /></label>
                     <label class="top" for="state">State / Province:<input type="text" id="state" name="state" required /></label>
@@ -97,8 +96,8 @@
                     <label class="top" for="pax">Number of People:<input type="number" id="pax" name="pax" required title="pax"/></label><br>
                     <label class="top" for="room">Room Type:</label>
                     <select required id="room">
-                        <option class="top" value="room">Select Room</option>
-                        <option class="top" value="room">Single</option>
+                        <option class="top" value="" disabled selected>Select Room</option>
+                        <option class="top" value="room" >Single</option>
                         <option class="top" value="room">Double</option>
                         <option class="top" value="room">Triple</option>
                         <option class="top" value="room">Junior Suite</option>
