@@ -17,8 +17,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
         <script defer src="js/script.js"></script>
         <script defer src="js/weather.js"></script>
-        <!-- <script defer src="js/temple-like.js"></script> -->
-        <!-- <script defer src="js/temples.js"></script> -->
         <script src="https://kit.fontawesome.com/5cb9098ea5.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -75,19 +73,57 @@
             </nav>
         </header>
 
-        <main class="temple-main">
-            <section>
-                <h1>Temples</h1>
-
-                <div class="temples" id="temp">
-                    <!-- <button id="btnh1" class="like-btn">
-                        <span id="like-icon"><i class="fa-regular fa-thumbs-up"></i></span>
-                        <span id="count">0</span> Like
-                    </button> -->
-                </div>
-                
+        <main>
+            <section class="reception-hero">
+                    <picture class="reception-hero-img responsive">
+                        <source media="(min-width: 200px) and (max-width:319px)" srcset="images/receptionHeroCOMP-TP-SMALL.jpg">
+                        <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/receptionHeroCOMP-TP-SMALL.jpg">
+                        <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/receptionHeroCOMP-TP-MED.jpg">
+                        <img src="images/receptionHeroCOMP-TP-LRG.jpg" alt="hero image">
+                    </picture>
+                    <div class="reception-hero-content">
+                        <h2>Wedding Reception Packages</h2>
+                        <p>We offer a range of wedding reception packages to tailor to your specific needs.</p>
+                        <button class="reception-hero-button" onclick="window.location.href='reservation.html';">
+                            Make A Reservation Now
+                        </button>
+                    </div>
             </section>
 
+            <section class="reception-content">
+                <div class="reception-acc">
+                    <picture class="reception-acc-img responsive">
+                        <source media="(min-width: 200px) and (max-width:319px)" srcset="images/receptionAccCOMP-TP-SMALL.jpg">
+                        <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/receptionAccCOMP-TP-SMALL.jpg">
+                        <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/receptionAccCOMP-TP-LRG.jpg">
+                        <img src="images/receptionAccCOMP-TP-LRG2.jpg" alt="hero image">
+                    </picture>
+                    <h2>Wedding Reception Accommodation</h2>
+                    <p>We know how important your big day is! You can choose from our wedding templates or create your own and discuss with our team according to your needs and preferences.</p>
+                </div>
+
+                <div class="reception-cake">
+                    <picture class="reception-cake-img responsive">
+                        <source media="(min-width: 200px) and (max-width:319px)" srcset="images/receptionCakeCOMP-TP-SMALL.jpg">
+                        <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/receptionCakeCOMP-TP-SMALL.jpg">
+                        <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/receptionCakeCOMP-TP-LRG.jpg">
+                        <img src="images/receptionCakeCOMP-TP-LRG2.jpg" alt="hero image">
+                    </picture>
+                    <h2>Wedding Reception Cake</h2>
+                    <p>Choose a cake from one of our ready-made wedding cakes or make your own according to your preferences.</p>
+                </div>
+
+                <div class="reception-food">
+                    <picture class="reception-food-img responsive">
+                        <source media="(min-width: 200px) and (max-width:319px)" srcset="images/receptionFoodCOMP-TP-SMALL.jpg">
+                        <source media="(min-width: 320px) and (max-width:32.4em)" srcset="images/receptionFoodCOMP-TP-SMALL.jpg">
+                        <source media="(min-width: 32.5em) and (max-width: 59em)" srcset="images/receptionFoodCOMP-TP-LRG.jpg">
+                        <img src="images/receptionFoodCOMP-TP-LRG2.jpg" alt="hero image">
+                    </picture>
+                    <h2>Wedding Reception Catering</h2>
+                    <p>We know how stressful this day could be due to the amount of guests but we got you! Just inform us of the number of guests you will have and we'll take care of the rest.</p>
+                </div>
+            </section>
         </main>
 
         <footer>
@@ -111,7 +147,4 @@
                 </div>
             </div>
         </footer>
-
-        <script src="js/temples.js"></script>
-    </body>
 </html>

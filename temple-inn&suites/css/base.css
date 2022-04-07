@@ -6,6 +6,10 @@ p {
     font-family: 'Libre Franklin', serif;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* HEADER */
 * {
     padding: 0;
@@ -391,6 +395,291 @@ input[type=submit] {
     padding: 20px;
     margin: 0 auto;
 }
+
+/* TEMPLES PAGE */
+
+.temple-main {
+    margin-top: 20px;
+    background-color: #EE9748;
+}
+
+.temple-main h1 {
+    text-align: center;
+    color: #EE9748;
+    background-color: #FFF7C8;
+    padding: 1rem;
+}
+
+.temples {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    padding: 1em;
+}
+
+.temples section {
+    background-color: #FFF7C8;
+}
+
+.temples p:nth-child(1) {
+    font-size: 2rem;
+    font-family: 'Josefin Sans', serif;
+}
+
+.temples p:nth-child(3), p:nth-child(4), p:nth-child(5) {
+    line-height: 1.5rem;
+}
+.temples img {
+    margin-top: 1rem;
+}
+
+.temples section {
+    box-shadow: 0 8px 8px -4px hsl(210, 2%, 22%);
+    padding: 1rem;
+}
+
+.like_btn {
+    padding: 10px 15px;
+    background-color: #FFF7C8;
+    color: #EE9748;
+    font-size: 18px;
+    font-family: 'Libre Franklin', serif;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-right: 210px; */
+}
+
+/* SERVICES PAGE */
+
+.services-hero-button {
+    background-color: #EE9748;
+    color: #FFF7C8;
+    padding: 10px;
+    font-family: 'Josefin Sans', serif;
+    box-shadow: -5px 5px #FFCFBB;
+    border-radius: 20px;
+}
+
+.services-hero {
+    /* position: relative; */
+    text-align: left;
+}
+
+.services-hero-content {
+    position: absolute;
+    top: 400px;
+    left: 15px;
+}
+
+.services-hero-content h2, .services-hero-content p {
+    color:#FFF7C8;
+}
+
+.services-wedding-content, .services-suite-content {
+    background: rgba(163, 159, 159, 0.5);
+    padding: 1rem;
+}
+
+.services-wedding-content {
+    position: absolute;
+    top: 750px;
+}
+
+.services-wedding-content h2, .services-suite-content h2 {
+    color:#FFF7C8;
+}
+
+.services-wedding-content p, .services-suite-content p {
+    color:#FFF7C8;
+}
+
+.services-wedding-content button, .services-suite-content button {
+    background-color: #EE9748;
+    color: #FFF7C8;
+    padding: 10px;
+    font-family: 'Josefin Sans', serif;
+    box-shadow: -5px 5px #FFCFBB;
+    border-radius: 20px;
+}
+
+.services-suite-content {
+    position: absolute;
+    top: 1100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services-subs {
+    text-align: center;
+}
+
+.services-wedding-img, .services-suite-img {
+    position: relative;
+}
+
+.services-content {
+    background:#EE9748;
+    color:#FFF7C8;
+    padding: 2.5rem;
+}
+
+.services-content ul li {
+    font-family: 'Libre Franklin', serif;
+    list-style-type:disc;
+    padding: 5px;
+}
+
+/* RECEPTION */
+
+.reception-hero-button {
+    background-color: #EE9748;
+    color: #FFF7C8;
+    padding: 10px;
+    font-family: 'Josefin Sans', serif;
+    box-shadow: -5px 5px #FFCFBB;
+    border-radius: 20px;
+}
+
+.reception-hero {
+    /* position: relative; */
+    text-align: left;
+}
+
+.reception-hero-content {
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    max-width: 300px;
+    background: rgba(163, 159, 159, 0.5);
+    padding: 1rem;
+}
+
+.reception-hero-content h2, .reception-hero-content p {
+    color:#FFF7C8;
+}
+
+.reception-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #EE9748;
+}
+
+.reception-acc, .reception-cake, .reception-food{
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    color:#EE9748;
+    border: 3px solid #FFF7C8;
+    border-radius: 5px;
+    background-color: #FFCFBB;
+}
+
+.reception-acc p, .reception-cake p, .reception-food p {
+    color:#EE9748;
+}
+
+.reception-acc img, .reception-cake img, .reception-food img {
+    margin: 0 auto;
+}
+
+/* MISSIONARIES/SUITES PAGE */
+
+.suite-hero-button {
+    background-color: #EE9748;
+    color: #FFF7C8;
+    padding: 10px;
+    font-family: 'Josefin Sans', serif;
+    box-shadow: -5px 5px #FFCFBB;
+    border-radius: 20px;
+}
+
+.suite-hero {
+    /* position: relative; */
+    text-align: left;
+}
+
+.suite-hero-content {
+    position: absolute;
+    top: 400px;
+    left: 15px;
+}
+
+.suite-hero-content h2, .suite-hero-content p {
+    color:#FFF7C8;
+}
+
+.suite-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.suite-content-item {
+    box-shadow: 0 8px 8px -4px hsl(210, 2%, 22%);
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    gap: 2rem;
+    color:#EE9748;
+}
+
+/* SUITE/MISSIONARY PAGE CONTACT FORM */
+
+.suite-form {
+    margin-top: 3rem;
+    background-color:#EE9748;
+    padding: 3rem;
+    color: #FFF7C8;
+}
+
+.suite-form form {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.suite-form form fieldset {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.suite-form label {
+    font-family: 'Libre Franklin', serif;
+}
+
+.suite-form legend {
+    font-family: 'Josefin Sans', serif;
+    font-size: 2rem;
+}
+
+.suite-form input, textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.suite-form form label.top {
+    padding: 0.5rem;
+}
+
+.sendBtn {
+    background-color: #FFF7C8;
+    color:#EE9748;
+    font-family: 'Josefin Sans', serif;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    margin-top: 20px;
+    max-width: 350px;
+    border-radius: 20px;
+}
+
 /* FOOTER */
 
 .footer-wrapper {
@@ -401,6 +690,9 @@ input[type=submit] {
     padding: 20px;
 }
 
+.footer-content {
+    color: #EE9478;
+}
 .footer-contacts {
     margin-top: 25px;
 }
